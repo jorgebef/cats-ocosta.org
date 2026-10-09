@@ -1,0 +1,303 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@plugin "@tailwindcss/typography";
+
+/* ==========================================================================
+   Cats Ocosta · sistema de diseño
+   Colores del logotipo: gato naranja, letras verdes y mariposas de colores
+   sobre una base crema cálida. Huellas y mariposas decoran los fondos; la
+   oreja con la punta recortada (gato CER) es el motivo gráfico.
+   ========================================================================== */
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  /* Tipografía (next/font define --font-bricolage y --font-atkinson en <html>) */
+  --font-sans: var(--font-atkinson), system-ui, sans-serif;
+  --font-heading: var(--font-bricolage), system-ui, sans-serif;
+
+  /* Tokens de shadcn/ui */
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+@theme {
+  /* Paleta del logotipo */
+  --color-cream: #fffaf2;
+  --color-peach: #fdecd6;
+  --color-sand: #f5ead3;
+  --color-forest: #2c6e2a; /* verde del logotipo, oscurecido para texto */
+  --color-forest-deep: #1f521e;
+  --color-leaf: #3e9b3a; /* verde del logotipo */
+  --color-leaf-soft: #e4f1dc;
+  --color-ember: #c2570f; /* naranja apto para texto blanco */
+  --color-ember-deep: #a8490b;
+  --color-ember-soft: #fde3c8;
+  --color-tangerine: #ec8a32; /* naranja del logotipo, decorativo */
+  --color-butter: #f4c542; /* mariposa amarilla */
+  --color-blossom: #e58fb6; /* mariposa rosa */
+  --color-ink: #2b2218;
+  --color-line: #ead9bf;
+
+  /* Escala tipográfica fluida. Sobrescribe tamaños estándar de Tailwind para que
+     cn()/tailwind-merge los reconozca como tamaños y no como colores. */
+  --text-xl: 1.3rem; /* entradillas y títulos h3 */
+  --text-xl--line-height: 1.45;
+  --text-2xl: clamp(1.55rem, 1.2rem + 1.2vw, 1.95rem);
+  --text-2xl--line-height: 1.2;
+  --text-5xl: clamp(1.95rem, 1.4rem + 2.2vw, 2.9rem); /* títulos de sección */
+  --text-5xl--line-height: 1.08;
+  --text-7xl: clamp(2.6rem, 1.6rem + 4.4vw, 5.1rem); /* títulos de página */
+  --text-7xl--line-height: 1;
+
+  --shadow-soft: 0 1px 2px rgb(74 46 16 / 0.06), 0 14px 36px -14px rgb(74 46 16 / 0.22);
+  --shadow-arch: 0 0 0 10px var(--color-cream), 0 0 0 13px rgb(62 155 58 / 0.55), 0 30px 60px -20px rgb(74 46 16 / 0.35);
+
+  --animate-note-in: note-in 0.6s 1.4s ease-out both;
+  --animate-badge-in: badge-in 0.8s 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  --animate-ring-in: ring-in 0.6s 1.2s ease-out both;
+  --animate-blob: blob 18s ease-in-out infinite alternate;
+  --animate-cue: cue 2.2s ease-in-out infinite;
+  --animate-drift: drift 9s ease-in-out infinite alternate;
+
+  @keyframes note-in {
+    from { opacity: 0; transform: translateY(8px); }
+  }
+  @keyframes badge-in {
+    from { opacity: 0; transform: rotate(-30deg) scale(0.6); }
+    to { opacity: 1; transform: rotate(-6deg); }
+  }
+  @keyframes ring-in {
+    from { opacity: 0; transform: scale(1.6); }
+  }
+  @keyframes blob {
+    to { border-radius: 44% 56% 60% 40% / 56% 42% 58% 44%; transform: rotate(8deg) scale(1.04); }
+  }
+  @keyframes cue {
+    0% { background-position: 0 100%; }
+    60%, 100% { background-position: 0 -100%; }
+  }
+  @keyframes drift {
+    0% { transform: translate(0, 0) rotate(-8deg); }
+    50% { transform: translate(1.2rem, -1rem) rotate(6deg); }
+    100% { transform: translate(-0.8rem, 0.6rem) rotate(-4deg); }
+  }
+}
+
+:root {
+  --radius: 1rem;
+  --background: var(--color-cream);
+  --foreground: var(--color-ink);
+  --card: #ffffff;
+  --card-foreground: var(--color-ink);
+  --popover: var(--color-cream);
+  --popover-foreground: var(--color-ink);
+  --primary: var(--color-forest);
+  --primary-foreground: var(--color-cream);
+  --secondary: var(--color-peach);
+  --secondary-foreground: var(--color-forest);
+  --muted: var(--color-sand);
+  --muted-foreground: #5e5244;
+  --accent: var(--color-leaf-soft);
+  --accent-foreground: var(--color-forest);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: var(--color-line);
+  --input: var(--color-line);
+  --ring: var(--color-ember);
+
+  /* Colores que cada tono de sección puede redefinir (ver components/layout.tsx) */
+  --heading: var(--color-forest);
+  --lead: #5e5244;
+  --body-muted: #5e5244;
+  --link: var(--color-forest);
+  --accent-line: var(--color-tangerine);
+  --accent-num: var(--color-ember);
+
+  /* Texturas: huellas, lunares, silueta de gato y trazo ondulado */
+  --paws: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cdefs%3E%3Cg id='p'%3E%3Cellipse cy='6' rx='9' ry='7.5'/%3E%3Cellipse cx='-9' cy='-6' rx='3.6' ry='4.6'/%3E%3Cellipse cx='-3.2' cy='-11.5' rx='3.6' ry='4.6'/%3E%3Cellipse cx='3.2' cy='-11.5' rx='3.6' ry='4.6'/%3E%3Cellipse cx='9' cy='-6' rx='3.6' ry='4.6'/%3E%3C/g%3E%3C/defs%3E%3Cg fill='%23c2570f' fill-opacity='.035'%3E%3Cuse href='%23p' transform='translate(36 44) rotate(-22)'/%3E%3Cuse href='%23p' transform='translate(62 78) rotate(-8) scale(.9)'/%3E%3Cuse href='%23p' transform='translate(118 122) rotate(28)'/%3E%3C/g%3E%3C/svg%3E");
+  --paws-light: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cdefs%3E%3Cg id='p'%3E%3Cellipse cy='6' rx='9' ry='7.5'/%3E%3Cellipse cx='-9' cy='-6' rx='3.6' ry='4.6'/%3E%3Cellipse cx='-3.2' cy='-11.5' rx='3.6' ry='4.6'/%3E%3Cellipse cx='3.2' cy='-11.5' rx='3.6' ry='4.6'/%3E%3Cellipse cx='9' cy='-6' rx='3.6' ry='4.6'/%3E%3C/g%3E%3C/defs%3E%3Cg fill='%23fff' fill-opacity='.045'%3E%3Cuse href='%23p' transform='translate(36 44) rotate(-22)'/%3E%3Cuse href='%23p' transform='translate(62 78) rotate(-8) scale(.9)'/%3E%3Cuse href='%23p' transform='translate(118 122) rotate(28)'/%3E%3C/g%3E%3C/svg%3E");
+  --dots: radial-gradient(rgb(194 87 15 / 0.1) 1.6px, transparent 1.8px) 0 0 / 22px 22px;
+  --cat-shape: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-46 -150 134 152'%3E%3Cg fill='%23000' stroke='%23000'%3E%3Cpath d='M-38 0 C-44 -40 -34 -78 -14 -92 L14 -92 C34 -78 44 -40 38 0 Z'/%3E%3Cellipse cy='-108' rx='26' ry='23'/%3E%3Cpath d='M-24 -118 L-20 -146 L-6 -128 Z'/%3E%3Cpath d='M24 -118 L21.4 -137 L13.2 -138.6 L6 -128 Z'/%3E%3Cpath d='M30 -3 C60 0 80 -6 82 -24' fill='none' stroke-width='9' stroke-linecap='round'/%3E%3C/g%3E%3C/svg%3E");
+  --squiggle: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 12'%3E%3Cpath d='M3 7 C12 1 18 11 27 6 S42 1 51 6 S66 11 77 4' fill='none' stroke='%23000' stroke-width='3.4' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply scroll-smooth scroll-pt-24 font-sans antialiased;
+  }
+  body {
+    @apply bg-background text-foreground text-[1.0625rem] leading-relaxed;
+    background-image: var(--paws);
+    background-size: 190px 190px;
+  }
+  :focus-visible {
+    @apply outline-3 outline-offset-3 outline-ember;
+  }
+  ::selection {
+    @apply bg-ember-soft text-ink;
+  }
+}
+
+/* ---------- Utilidades de la marca ---------- */
+
+/* Panel de color redondeado con un gato de la colonia de fondo */
+@utility panel {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  margin-inline: clamp(0.5rem, 1.6vw, 1.25rem);
+  margin-block: clamp(0.5rem, 1.2vw, 0.85rem);
+  border-radius: clamp(28px, 4.5vw, 56px);
+
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    right: clamp(-2rem, -2vw, 0rem);
+    bottom: -0.5rem;
+    width: clamp(9rem, 20vw, 17rem);
+    aspect-ratio: 134 / 152;
+    background: var(--panel-cat, var(--color-tangerine));
+    opacity: var(--panel-cat-opacity, 0.12);
+    mask: var(--cat-shape) center / contain no-repeat;
+    transform: var(--panel-cat-flip, none);
+    pointer-events: none;
+  }
+}
+
+@utility bg-paws {
+  background-image: var(--paws);
+  background-size: 190px 190px;
+}
+
+/* Fondos de sección */
+@utility bg-tone-peach {
+  background:
+    radial-gradient(55% 60% at 0% 0%, rgb(62 155 58 / 0.13), transparent 70%),
+    radial-gradient(50% 65% at 100% 100%, rgb(236 138 50 / 0.24), transparent 70%),
+    var(--paws) 0 0 / 190px 190px,
+    var(--color-peach);
+}
+
+@utility bg-tone-sand {
+  background:
+    radial-gradient(45% 55% at 100% 0%, rgb(244 197 66 / 0.22), transparent 70%),
+    radial-gradient(45% 60% at 0% 100%, rgb(62 155 58 / 0.1), transparent 70%),
+    var(--dots),
+    var(--color-sand);
+}
+
+@utility bg-tone-green {
+  background:
+    radial-gradient(40% 50% at 90% 10%, rgb(244 197 66 / 0.18), transparent 70%),
+    radial-gradient(50% 60% at 0% 100%, rgb(236 138 50 / 0.22), transparent 70%),
+    var(--paws-light) 0 0 / 190px 190px,
+    linear-gradient(160deg, #307a2d, var(--color-forest-deep));
+}
+
+@utility bg-tone-ember {
+  background:
+    radial-gradient(45% 70% at 100% 0%, rgb(244 197 66 / 0.35), transparent 70%),
+    var(--paws-light) 0 0 / 190px 190px,
+    linear-gradient(135deg, #cf6216, var(--color-ember-deep));
+}
+
+@utility bg-tone-footer {
+  background:
+    radial-gradient(40rem 20rem at 0% 0%, rgb(236 138 50 / 0.16), transparent 70%),
+    var(--paws-light) 0 0 / 190px 190px,
+    #1d3a1c;
+}
+
+/* Trazo ondulado bajo un título */
+@utility squiggle {
+  &::after {
+    content: '';
+    display: block;
+    width: 4.75rem;
+    height: 0.75rem;
+    margin-top: 0.7rem;
+    margin-inline: var(--squiggle-inline, 0);
+    background: var(--accent-line, var(--color-tangerine));
+    mask: var(--squiggle) center / contain no-repeat;
+  }
+}
+
+/* Gato de la colonia recortado como silueta (color = currentColor) */
+@utility cat-silhouette {
+  aspect-ratio: 134 / 152;
+  background: currentColor;
+  mask: var(--cat-shape) center / contain no-repeat;
+}
+
+/* Remate inferior en forma de arcos, como una galería encalada */
+@utility scallop-bottom {
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 28px;
+    background: radial-gradient(circle at 28px 28px, var(--color-cream) 27px, transparent 28px) 0 0 / 56px 28px repeat-x;
+  }
+}
+
+/* Alas de las mariposas del logotipo */
+.butterfly-wing {
+  transform-box: fill-box;
+  transform-origin: right center;
+  animation: flap var(--flap, 0.5s) ease-in-out infinite alternate;
+}
+
+@keyframes flap {
+  to {
+    transform: scaleX(0.35);
+  }
+}
+
+.butterfly-wing-right {
+  transform-origin: left center;
+}
+
+/* ---------- Movimiento reducido ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

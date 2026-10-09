@@ -1,0 +1,605 @@
+{
+  "meta": {
+    "title": "Cats Ocosta · Community cat colonies of Orihuela Costa",
+    "description": "Volunteer association caring for the cat colonies of Orihuela Costa with the TNR method: trap, neuter and return. Volunteer with us or donate through Teaming.",
+    "ogAlt": "Cats Ocosta, community cat colonies of Orihuela Costa"
+  },
+  "brand": {
+    "tagline": "Feline colonies"
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "mainNav": "Main navigation",
+    "newTab": "(opens in a new tab)",
+    "home": "Cats Ocosta, go to home page"
+  },
+  "nav": {
+    "home": "Home",
+    "volunteer": "Volunteer",
+    "tnr": "TNR method",
+    "blog": "Blog",
+    "contact": "Contact",
+    "donate": "Donate"
+  },
+  "donate": {
+    "button": "Donate on Teaming",
+    "monthly": "Give €1 a month",
+    "note": "Teaming is a micro-donation platform. You'll be taken to their website to complete your donation."
+  },
+  "categories": {
+    "all": "All",
+    "grants": "Grants",
+    "actions": "Field work",
+    "campaigns": "Campaigns",
+    "fundraising": "Fundraising",
+    "news": "News"
+  },
+  "footer": {
+    "tagline": "Volunteers from Orihuela Costa caring every day for the community cats of our municipality.",
+    "navTitle": "The association",
+    "legalTitle": "Legal information",
+    "contactTitle": "Talk to us",
+    "legalNotice": "Legal notice",
+    "privacy": "Privacy policy",
+    "cookies": "Cookie policy",
+    "cif": "Tax ID (CIF) {cif}",
+    "privacyNote": "This website uses no forms, tracking cookies or analytics.",
+    "copyright": "© {year} Cats Ocosta"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Volunteers · TNR method",
+      "title": "Protecting community cats in Orihuela Costa.",
+      "lead": "We are neighbours from Orihuela Costa who look after the local cat colonies every single day. With the TNR method (trap, neuter, return) colonies stop growing, cats live healthier lives and the neighbourhood becomes a calmer place.",
+      "donate": "Give €1 a month",
+      "donateNote": "Secure donation through Teaming",
+      "learn": "How the TNR method works",
+      "scroll": "Keep scrolling",
+      "earTitle": "Spotted a cat with a clipped ear tip?",
+      "earText": "It means the cat has been neutered, checked by a vet and is protected as part of a managed colony.",
+      "sceneLabel": "Illustration: three cats sitting on a wall facing the sea at sunset. One of them has a clipped ear tip."
+    },
+    "work": {
+      "title": "Caring for a colony is much more than leaving food out",
+      "lead": "Every colony has its own volunteers who know each cat individually. This is our daily work:",
+      "items": [
+        {
+          "title": "Feeding and cleaning",
+          "text": "Dry food and fresh water at fixed spots and times. We always clean up afterwards so no mess or leftovers are left behind."
+        },
+        {
+          "title": "Neutering with TNR",
+          "text": "We trap humanely, take each cat to the vet and return it to its colony. It's the only way to stop the population from growing."
+        },
+        {
+          "title": "Health monitoring",
+          "text": "We keep a census of every colony and watch for injuries, illness and newcomers so they get veterinary care in time."
+        },
+        {
+          "title": "Neighbours and regulations",
+          "text": "We mediate with residents and communities, make sure the law is respected and work with the Town Council to have colonies officially recognised."
+        }
+      ]
+    },
+    "steps": {
+      "title": "The TNR method in three steps",
+      "lead": "It's the method set out in Spain's national animal welfare law for managing cat colonies, and the one we use across the whole of Orihuela Costa.",
+      "items": [
+        {
+          "title": "Trap",
+          "text": "Using approved humane traps, without harming the animal and with as little stress as possible."
+        },
+        {
+          "title": "Neuter",
+          "text": "A vet neuters, deworms and checks the cat, and clips the tip of one ear to identify it."
+        },
+        {
+          "title": "Return",
+          "text": "Once recovered, the cat goes back to its colony, where we keep caring for it for the rest of its life."
+        }
+      ],
+      "link": "All about TNR and the law"
+    },
+    "benefits": {
+      "title": "A cared-for colony is good for the whole neighbourhood",
+      "lead": "Community cats are part of the urban ecosystem. Well managed, they give back more than most people imagine.",
+      "items": [
+        {
+          "title": "Fewer rodents",
+          "text": "Their presence alone keeps rats and mice from settling in gardens, empty plots and shared areas."
+        },
+        {
+          "title": "Quieter nights",
+          "text": "Without mating seasons, night-time yowling, fights and urine marking disappear."
+        },
+        {
+          "title": "A population that stops growing",
+          "text": "Neutered cats hold their territory and don't reproduce, so no new litters arrive."
+        },
+        {
+          "title": "Better public health",
+          "text": "These cats are checked by vets, monitored, and fed at clean feeding points."
+        },
+        {
+          "title": "Lower public spending",
+          "text": "Neutering once costs less than removing litters year after year without ever solving the problem."
+        },
+        {
+          "title": "Community",
+          "text": "Caring for those without a voice brings neighbours together and teaches children respect."
+        }
+      ]
+    },
+    "law": {
+      "title": "Since 2023, the law protects them",
+      "text": "Spain's Law 7/2023 on the protection of animal rights and welfare recognises community cats and requires town councils to manage cat colonies using the TNR method. It is no longer a matter of goodwill: it's a legal obligation.",
+      "link": "Learn about their rights"
+    },
+    "blog": {
+      "title": "Latest from the association",
+      "lead": "Grants, campaigns, work in the colonies and fundraising drives.",
+      "all": "See all posts",
+      "empty": "Our first news will be published here soon."
+    },
+    "join": {
+      "title": "There are many ways to help",
+      "lead": "Whether you live in Orihuela Costa and can spare a few hours, or prefer to help from wherever you are, your support reaches the cats.",
+      "time": {
+        "title": "With your time",
+        "text": "Feeding shifts, trapping for neutering, trips to the vet, or fostering cats while they recover.",
+        "cta": "I want to volunteer"
+      },
+      "money": {
+        "title": "With a donation",
+        "text": "Every contribution becomes neutering, food, parasite treatments and trapping equipment.",
+        "cta": "Donate on Teaming"
+      }
+    },
+    "donateBand": {
+      "title": "€1 a month changes life for a whole colony",
+      "text": "Teaming lets you give a monthly micro-donation of €1. Together with other supporters, it pays for neutering, treatments and daily food.",
+      "cta": "Support us on Teaming"
+    }
+  },
+  "volunteer": {
+    "metaTitle": "Volunteer",
+    "metaDescription": "Find out what it means to volunteer with Cats Ocosta: give your time to the cat colonies of Orihuela Costa or support us with donations.",
+    "title": "Become a volunteer",
+    "lead": "You don't need experience or to be a vet. You need commitment, respect for animals and for neighbours, and a wish to work as a team.",
+    "meaningTitle": "What it means to volunteer with Cats Ocosta",
+    "meaning": [
+      "Volunteering means committing to cats who have nobody else. Colonies need food and water every day of the year, including August and Christmas, and that is only possible if many of us share the work.",
+      "It also means representing the association to local residents: explaining what we do, why the colony is there and how it makes the neighbourhood better. Every volunteer helps change how people see community cats."
+    ],
+    "pathsTitle": "Choose how you'd like to help",
+    "active": {
+      "title": "Volunteering in the colonies",
+      "who": "For residents of Orihuela Costa and nearby who can give a few hours a week.",
+      "tasksTitle": "Tasks you can take part in",
+      "tasks": [
+        "Feeding and cleaning shifts at an assigned colony",
+        "Helping with trapping for neutering",
+        "Driving cats to the vet and back to their colony",
+        "Temporary fostering for post-surgery recovery and kittens",
+        "Information stands, charity markets and food drives",
+        "Social media and campaign design"
+      ],
+      "cta": "Message us on WhatsApp",
+      "message": "Hi, I'd like to volunteer with Cats Ocosta. Could you tell me how to get started?"
+    },
+    "donor": {
+      "title": "Supporting with donations",
+      "who": "For anyone who can't give time, lives far away or simply prefers to help this way.",
+      "tasksTitle": "Ways to contribute",
+      "tasks": [
+        "A €1 monthly micro-donation on Teaming",
+        "Donations of dry food, tins, blankets or cat carriers",
+        "Sharing our campaigns with your contacts",
+        "If you run a local business, hosting a collection box or drop-off point"
+      ],
+      "cta": "Donate on Teaming",
+      "inKind": "For in-kind donations, message us and we'll tell you what we need most right now."
+    },
+    "stepsTitle": "How to start volunteering",
+    "steps": [
+      {
+        "title": "Get in touch",
+        "text": "By WhatsApp or email. Tell us which area you live in and how much time you can give."
+      },
+      {
+        "title": "Meet the team",
+        "text": "We'll meet to explain how we work and the colony rules, and answer your questions."
+      },
+      {
+        "title": "Learn alongside us",
+        "text": "For the first few weeks you'll join an experienced volunteer on their round."
+      },
+      {
+        "title": "Get your own shift",
+        "text": "Based on your availability and the area closest to you."
+      }
+    ],
+    "commitTitle": "What we ask of every volunteer",
+    "commit": [
+      {
+        "title": "Coordination",
+        "text": "We always act on behalf of the association and with the approval of each area's coordinator."
+      },
+      {
+        "title": "Cleanliness",
+        "text": "Clearing bowls and leftovers after every feed. It's what neighbours appreciate most."
+      },
+      {
+        "title": "Discretion",
+        "text": "We never share the exact location of colonies, to protect them from abandonment and attacks."
+      },
+      {
+        "title": "Respect",
+        "text": "For the cats, for the neighbours and for local regulations."
+      }
+    ],
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "Do I have to live in Orihuela Costa?",
+        "a": "For colony volunteering it helps to live nearby, since shifts are daily. If you live further away you can help with donations, sharing our posts or one-off campaigns."
+      },
+      {
+        "q": "How much time do I need to give?",
+        "a": "A feeding shift usually takes 30 to 60 minutes. What matters most isn't the number of hours but consistency: if you commit to one day a week, the cats count on it."
+      },
+      {
+        "q": "Can I help if I'm under 18?",
+        "a": "Yes, accompanied by an adult and with your parents' or guardians' permission. Some tasks, like information stands, are a great way to start."
+      },
+      {
+        "q": "I already feed some cats on my own. What should I do?",
+        "a": "Get in touch. We'll help get that colony neutered and registered, and make sure feeding follows local regulations. That way the cats are protected, and so are you."
+      },
+      {
+        "q": "What should I do if I find a kitten or an injured cat?",
+        "a": "Message us on WhatsApp with a photo and the approximate area. If the animal is in immediate danger, take it to an emergency vet."
+      }
+    ],
+    "ctaTitle": "Will you join us?",
+    "ctaText": "Message us and we'll tell you how to get started. No commitment and no forms.",
+    "ctaEmail": "Send an email"
+  },
+  "tnr": {
+    "metaTitle": "The TNR method and community cats' rights",
+    "metaDescription": "What the TNR method (trap, neuter, return) is, why it works, what Spain's Law 7/2023 says about community cats and how they benefit the community.",
+    "title": "The TNR method",
+    "lead": "Trap, neuter, return. It's the ethical and effective way to manage colonies of cats living outdoors, and the method set out in Spain's national animal welfare law.",
+    "toc": "On this page",
+    "tocItems": {
+      "what": "What it is",
+      "why": "Why it works",
+      "myths": "Myths",
+      "law": "The law",
+      "rights": "Their rights",
+      "benefits": "Benefits"
+    },
+    "what": {
+      "title": "What the TNR method is",
+      "text": "TNR stands for trap, neuter, return (in Spanish, CER: captura, esterilización y retorno). Every cat in a colony is neutered and returned to its territory, where a team of volunteers feeds them, keeps a census and monitors their health. The colony stops growing and, over the years, shrinks naturally.",
+      "steps": [
+        {
+          "title": "Trap",
+          "text": "We use traps designed not to cause harm. They're set at the times cats come to eat and are watched at all times."
+        },
+        {
+          "title": "Neuter",
+          "text": "At the vet clinic the cat is neutered, dewormed and given a general check-up. Under anaesthesia the tip of one ear is clipped: the international sign of a neutered cat."
+        },
+        {
+          "title": "Return",
+          "text": "After recovering, the cat goes back to exactly the same spot where it was trapped. Its colony is its home."
+        },
+        {
+          "title": "Follow-up",
+          "text": "Volunteers keep feeding the colony, record every cat and spot newcomers so they can be neutered too."
+        }
+      ]
+    },
+    "why": {
+      "title": "Why it works",
+      "lead": "For decades people tried to solve the problem by removing cats. It never worked. TNR does, for these reasons:",
+      "items": [
+        {
+          "title": "It breaks the breeding cycle",
+          "text": "A female cat can have several litters a year. Without neutering, a small colony multiplies very quickly."
+        },
+        {
+          "title": "It avoids the vacuum effect",
+          "text": "If a colony is removed, food and shelter remain, and other unneutered cats move in. A stable, neutered colony keeps the territory occupied."
+        },
+        {
+          "title": "It reduces nuisance",
+          "text": "Without mating cycles, yowling, fighting and urine marking disappear — the main causes of complaints from residents."
+        },
+        {
+          "title": "It improves the cats' health",
+          "text": "Neutered cats fight less, roam less and get regular veterinary check-ups."
+        },
+        {
+          "title": "It's ethical and backed by law",
+          "text": "It doesn't involve killing healthy animals, and it's the reference method under Law 7/2023."
+        }
+      ]
+    },
+    "myths": {
+      "title": "Myths and facts",
+      "items": [
+        {
+          "myth": "If you feed them, more cats will come.",
+          "fact": "Orderly feeding at fixed times is exactly what makes it possible to trap and neuter the whole colony. What makes a colony grow is breeding, not food."
+        },
+        {
+          "myth": "It's best to take them somewhere else.",
+          "fact": "Because of the vacuum effect, other cats would arrive. Besides, the law generally forbids removing or relocating community cats from their colony except in the cases and procedures it sets out."
+        },
+        {
+          "myth": "Street cats spread disease.",
+          "fact": "Cats in a managed colony are checked and dewormed. With basic hygiene, the risk to people is very low."
+        },
+        {
+          "myth": "They'd be better off in a home.",
+          "fact": "Most colony cats aren't socialised with people and would suffer indoors. Their territory is their home. Kittens and friendly cats are put up for adoption."
+        }
+      ]
+    },
+    "law": {
+      "title": "How the law protects community cats",
+      "lead": "Spain's Law 7/2023, of 28 March, on the protection of animal rights and welfare, in force since 29 September 2023, has a chapter dedicated specifically to cat colonies.",
+      "items": [
+        {
+          "title": "It recognises the community cat",
+          "text": "It defines a community cat as one that lives freely but is linked to a territory, and a cat colony as a group of cats that, due to low socialisation, can't easily be handled by people but lives around them."
+        },
+        {
+          "title": "It sets TNR as the management method",
+          "text": "It defines TNR as the trapping, neutering and return of community cats by non-harmful means, and establishes comprehensive, non-lethal colony management."
+        },
+        {
+          "title": "It gives responsibilities to town councils",
+          "text": "Municipalities must run cat colony management programmes including census, neutering and health control, working with animal protection organisations."
+        },
+        {
+          "title": "It requires owned cats to be neutered",
+          "text": "To stop new cats ending up on the street, the law requires pet cats to be neutered, with the exceptions it provides for."
+        },
+        {
+          "title": "It punishes cruelty",
+          "text": "Abandonment and cruelty are forbidden and penalised. In addition, the Criminal Code, amended in 2023, punishes animal cruelty with penalties that can include prison."
+        }
+      ],
+      "regional": "In the Valencian Community, Regional Law 2/2023, of 13 March, on the protection, welfare and keeping of companion animals also applies, and each town council sets out in its bylaws how colonies are registered and managed.",
+      "disclaimer": "This information is for general awareness and is not legal advice. You can read the full text of the law in Spain's Official State Gazette (BOE).",
+      "boe": "Read Law 7/2023 in the BOE (Spanish)"
+    },
+    "rights": {
+      "title": "Community cats' rights today",
+      "lead": "Under current law, a colony cat has the right to:",
+      "items": [
+        "Live in its territory, without being removed or relocated except in the cases set out by law",
+        "Be treated with dignity and not suffer cruelty, poisoning or abandonment",
+        "Be fed and cared for by the people and organisations managing its colony",
+        "Receive veterinary care and be neutered as part of a TNR programme",
+        "Not be put down, except for euthanasia prescribed by a vet to prevent suffering"
+      ],
+      "reportTitle": "If you witness cruelty",
+      "reportText": "Call 112 or 062 (Guardia Civil, SEPRONA) or alert the Local Police. If you can do so safely, take photos or video and note the time and place. Then message us: we'll support you through the report."
+    },
+    "benefits": {
+      "title": "How community cats benefit everyone",
+      "items": [
+        {
+          "title": "Natural rodent control",
+          "text": "They keep rats and mice away from homes, gardens and shared areas, with no need for poisons that endanger pets and children."
+        },
+        {
+          "title": "Calmer coexistence",
+          "text": "A neutered colony doesn't yowl in heat, fight or spray urine."
+        },
+        {
+          "title": "Public health",
+          "text": "Managed colonies are under veterinary control and fed at clean feeding points, unlike unmanaged cats."
+        },
+        {
+          "title": "Savings for the town",
+          "text": "TNR solves the problem in the long term, which makes it cheaper than repeated removals."
+        },
+        {
+          "title": "Teaching values",
+          "text": "Colonies are a chance to teach children and young people respect for animals and for shared spaces."
+        },
+        {
+          "title": "Neighbours who know each other",
+          "text": "Around every colony grows a network of people who help one another and look after their surroundings."
+        }
+      ]
+    },
+    "ctaTitle": "Help us bring TNR to all of Orihuela Costa",
+    "ctaText": "Every neutering counts. Make a donation or join our volunteer team."
+  },
+  "blog": {
+    "metaTitle": "Blog",
+    "metaDescription": "News from Cats Ocosta: grants, work in the colonies, campaigns and fundraising in Orihuela Costa.",
+    "title": "Blog",
+    "lead": "What we do, in our own words: grants received, work in the colonies, campaigns and fundraising drives.",
+    "filter": "Filter by category",
+    "empty": "There are no posts in this category yet.",
+    "emptyAll": "We haven't published any posts yet. Check back soon.",
+    "seeAll": "See all posts",
+    "readMore": "Read post",
+    "prev": "Newer posts",
+    "next": "Older posts",
+    "page": "Page {page} of {total}"
+  },
+  "post": {
+    "back": "Back to the blog",
+    "published": "Published on {date}",
+    "helpTitle": "Want to help us do more?",
+    "helpText": "Everything in these posts is possible thanks to the people who support us.",
+    "notFound": "This post doesn't exist or is no longer published."
+  },
+  "contact": {
+    "metaTitle": "Contact",
+    "metaDescription": "Get in touch with Cats Ocosta by WhatsApp or email.",
+    "title": "Contact",
+    "lead": "Message us to volunteer, tell us about a cat that needs help, propose a partnership or ask anything at all.",
+    "whatsappTitle": "WhatsApp",
+    "whatsappText": "The quickest way to reach us. You can send photos and the approximate area.",
+    "whatsappCta": "Open WhatsApp",
+    "whatsappMessage": "Hi, I'm writing from the Cats Ocosta website.",
+    "emailTitle": "Email",
+    "emailText": "For proposals, partnerships with businesses or public bodies, and more detailed questions.",
+    "emailCta": "Send an email",
+    "response": "We're volunteers: we reply as soon as we can, usually within one or two days.",
+    "urgentTitle": "If an animal is in danger right now",
+    "urgentText": "In a case of cruelty, call 112 or 062 (SEPRONA). If the cat is injured, take it to an emergency vet and then message us.",
+    "dataTitle": "Association details",
+    "dataName": "Name",
+    "dataCif": "Tax ID (CIF)",
+    "dataArea": "Area of work",
+    "privacyTitle": "Your privacy",
+    "privacyText": "This website has no forms and we don't store any of your data. If you message us, we'll only use your details to reply. See our privacy policy for more information."
+  },
+  "legal": {
+    "updated": "Last updated: September 2026",
+    "identityTitle": "Identification details",
+    "identity": {
+      "name": "Owner",
+      "cif": "Tax ID (CIF)",
+      "email": "Email",
+      "whatsapp": "WhatsApp",
+      "registry": "Register of associations",
+      "area": "Area of work"
+    },
+    "notice": {
+      "metaTitle": "Legal notice",
+      "title": "Legal notice",
+      "sections": [
+        {
+          "h": "Purpose",
+          "p": [
+            "In accordance with article 10 of Spanish Law 34/2002 on information society services and e-commerce (LSSI-CE), this notice identifies the owner of this website, whose purpose is to present the association's work, explain the TNR method and make it easy to get in touch and collaborate."
+          ]
+        },
+        {
+          "h": "Terms of use",
+          "p": [
+            "Access to this website is free and requires no registration. Visitors agree to make appropriate use of its content, in accordance with the law and good faith."
+          ]
+        },
+        {
+          "h": "Intellectual property",
+          "p": [
+            "The texts, illustrations and logos on this website belong to the association or are used with permission. You may share them for non-commercial awareness purposes, citing the source."
+          ]
+        },
+        {
+          "h": "External links",
+          "p": [
+            "This website links to third-party services such as Teaming for donations, WhatsApp for contact, and Spain's Official State Gazette. The association is not responsible for their content or privacy policies, which we recommend you read."
+          ]
+        },
+        {
+          "h": "Applicable law",
+          "p": [
+            "This legal notice is governed by Spanish law."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "metaTitle": "Privacy policy",
+      "title": "Privacy policy",
+      "sections": [
+        {
+          "h": "Summary",
+          "p": [
+            "This website has no forms, doesn't let you create accounts, uses no tracking cookies or analytics tools, and stores no personal data about visitors. This policy explains what happens to your data only if you choose to contact us or collaborate."
+          ]
+        },
+        {
+          "h": "Data controller",
+          "p": [
+            "{name}, Tax ID (CIF) {cif}. You can contact us at {email}."
+          ]
+        },
+        {
+          "h": "Browsing the website",
+          "p": [
+            "Like any web server, the hosting provider may technically and temporarily log IP addresses and request data to keep the service secure and working. The association doesn't use these logs to identify you or build profiles.",
+            "Fonts are served from our own server, so your browser doesn't connect to third-party services when loading the site."
+          ]
+        },
+        {
+          "h": "If you email us or message us on WhatsApp",
+          "p": [
+            "We'll process the data you give us (name, phone number or email and the content of your message) solely to reply to you and, if you want to volunteer, to coordinate your involvement. The legal basis is your consent when contacting us and, for volunteering, managing the relationship established with you.",
+            "We'll keep your data for as long as needed to handle your enquiry or while you collaborate with the association, and then delete it. We don't share it with third parties unless legally required.",
+            "WhatsApp is a service provided by WhatsApp Ireland Limited, which processes your data as an independent controller under its own privacy policy; this may involve international transfers covered by the mechanisms provided for in the GDPR."
+          ]
+        },
+        {
+          "h": "Donations",
+          "p": [
+            "Donations are made on the Teaming platform, which is responsible for any data you provide there under its own privacy policy. This website never receives or stores payment details."
+          ]
+        },
+        {
+          "h": "Your rights",
+          "p": [
+            "You can exercise your rights of access, rectification, erasure, objection, restriction of processing and portability by writing to {email}. If you believe we haven't handled your rights properly, you can lodge a complaint with the Spanish Data Protection Agency (www.aepd.es)."
+          ]
+        },
+        {
+          "h": "Minors",
+          "p": [
+            "If you're under 14, please ask your parent or guardian to contact us on your behalf."
+          ]
+        }
+      ]
+    },
+    "cookies": {
+      "metaTitle": "Cookie policy",
+      "title": "Cookie policy",
+      "sections": [
+        {
+          "h": "This website uses no tracking cookies",
+          "p": [
+            "We don't use analytics, advertising or social media cookies, and we don't load third-party content that sets them. We don't even store a cookie to remember your language: it's shown in the page address itself (/es or /en). That's why we don't show you a cookie banner."
+          ]
+        },
+        {
+          "h": "Technical cookie for the admin panel",
+          "p": [
+            "Only team members who publish on the blog access a private panel. Logging in creates a technical cookie (payload-token) required to keep the session open. It is exempt from consent under article 22.2 of the LSSI-CE and is never set for website visitors."
+          ]
+        },
+        {
+          "h": "External services",
+          "p": [
+            "If you click a link to Teaming or WhatsApp you'll leave this website, and those services may use their own cookies under their policies."
+          ]
+        },
+        {
+          "h": "Managing cookies",
+          "p": [
+            "You can view and delete cookies from your browser settings at any time."
+          ]
+        }
+      ]
+    }
+  },
+  "notFound": {
+    "title": "This page has wandered off",
+    "text": "We couldn't find what you're looking for. The address may have changed or the link may be mistyped.",
+    "home": "Back to home"
+  }
+}

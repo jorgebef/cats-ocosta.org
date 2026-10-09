@@ -1,0 +1,605 @@
+{
+  "meta": {
+    "title": "Cats Ocosta · Colonias felinas de Orihuela Costa",
+    "description": "Asociación de voluntariado que gestiona las colonias felinas de Orihuela Costa con el método CER: captura, esterilización y retorno. Colabora, hazte voluntario o dona en Teaming.",
+    "ogAlt": "Cats Ocosta, colonias felinas de Orihuela Costa"
+  },
+  "brand": {
+    "tagline": "Colonias felinas"
+  },
+  "a11y": {
+    "skip": "Saltar al contenido",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "language": "Idioma",
+    "mainNav": "Navegación principal",
+    "newTab": "(se abre en una pestaña nueva)",
+    "home": "Cats Ocosta, ir al inicio"
+  },
+  "nav": {
+    "home": "Inicio",
+    "volunteer": "Hazte voluntario",
+    "tnr": "Método CER",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "donate": "Donar"
+  },
+  "donate": {
+    "button": "Donar en Teaming",
+    "monthly": "Colaborar con 1 € al mes",
+    "note": "Teaming es una plataforma de microdonaciones. Te llevará a su web para completar tu aportación."
+  },
+  "categories": {
+    "all": "Todas",
+    "grants": "Subvenciones",
+    "actions": "Actuaciones",
+    "campaigns": "Campañas",
+    "fundraising": "Recogida de donativos",
+    "news": "Noticias"
+  },
+  "footer": {
+    "tagline": "Voluntarias y voluntarios de Orihuela Costa cuidando cada día de los gatos comunitarios del municipio.",
+    "navTitle": "La asociación",
+    "legalTitle": "Información legal",
+    "contactTitle": "Habla con nosotros",
+    "legalNotice": "Aviso legal",
+    "privacy": "Política de privacidad",
+    "cookies": "Política de cookies",
+    "cif": "CIF {cif}",
+    "privacyNote": "Esta web no usa formularios, cookies de seguimiento ni analítica.",
+    "copyright": "© {year} Cats Ocosta"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Voluntariado · Método CER",
+      "title": "Protegemos a los gatos comunitarios de Orihuela Costa.",
+      "lead": "Somos vecinas y vecinos de Orihuela Costa que cuidan cada día de las colonias felinas del municipio. Con el método CER (captura, esterilización y retorno) las colonias dejan de crecer, los gatos viven más sanos y el barrio gana en tranquilidad.",
+      "donate": "Colaborar con 1 € al mes",
+      "donateNote": "Donación segura a través de Teaming",
+      "learn": "Cómo funciona el método CER",
+      "scroll": "Sigue bajando",
+      "earTitle": "¿Ves una oreja con la punta recortada?",
+      "earText": "Es la señal de que ese gato está esterilizado, revisado por un veterinario y protegido dentro de una colonia gestionada.",
+      "sceneLabel": "Ilustración: tres gatos sentados sobre un muro frente al mar al atardecer. Uno de ellos tiene la punta de la oreja recortada."
+    },
+    "work": {
+      "title": "Cuidar una colonia es mucho más que poner comida",
+      "lead": "Cada colonia tiene personas voluntarias asignadas que la conocen gato a gato. Este es nuestro trabajo diario:",
+      "items": [
+        {
+          "title": "Alimentación y limpieza",
+          "text": "Pienso seco y agua limpia, en puntos y horarios fijos. Recogemos siempre después para que no quede suciedad ni restos."
+        },
+        {
+          "title": "Esterilización con el método CER",
+          "text": "Capturamos sin dañar, llevamos al veterinario y devolvemos a cada gato a su colonia. Es la única forma de que la población no crezca."
+        },
+        {
+          "title": "Seguimiento sanitario",
+          "text": "Censamos cada colonia y vigilamos heridas, enfermedades y recién llegados para darles atención veterinaria a tiempo."
+        },
+        {
+          "title": "Convivencia y normativa",
+          "text": "Mediamos con vecinos y comunidades, velamos por que se cumpla la ley y trabajamos con el Ayuntamiento para que las colonias estén reconocidas."
+        }
+      ]
+    },
+    "steps": {
+      "title": "El método CER, en tres pasos",
+      "lead": "Es el método que recoge la ley estatal de bienestar animal para gestionar las colonias felinas, y el que aplicamos en todo el término de Orihuela Costa.",
+      "items": [
+        {
+          "title": "Captura",
+          "text": "Con jaulas trampa homologadas, sin hacer daño al animal y con el mínimo estrés posible."
+        },
+        {
+          "title": "Esterilización",
+          "text": "Un veterinario esteriliza, desparasita y revisa al gato, y le recorta la punta de la oreja para identificarlo."
+        },
+        {
+          "title": "Retorno",
+          "text": "Tras recuperarse, vuelve a su colonia, donde seguimos cuidándolo el resto de su vida."
+        }
+      ],
+      "link": "Todo sobre el método CER y la ley"
+    },
+    "benefits": {
+      "title": "Una colonia cuidada es buena para todo el barrio",
+      "lead": "Los gatos comunitarios forman parte del ecosistema urbano. Bien gestionados, aportan más de lo que muchas personas imaginan.",
+      "items": [
+        {
+          "title": "Menos roedores",
+          "text": "Su sola presencia disuade a ratas y ratones de instalarse en jardines, solares y zonas comunes."
+        },
+        {
+          "title": "Noches más tranquilas",
+          "text": "Sin celo desaparecen los maullidos nocturnos, las peleas y el marcaje con orina."
+        },
+        {
+          "title": "Una población que no crece",
+          "text": "Los gatos esterilizados ocupan su territorio y no se reproducen, así que no llegan camadas nuevas."
+        },
+        {
+          "title": "Más salud pública",
+          "text": "Son gatos revisados por veterinarios, con seguimiento y en puntos de alimentación limpios."
+        },
+        {
+          "title": "Menos gasto público",
+          "text": "Esterilizar una vez cuesta menos que recoger camadas año tras año sin resolver el problema."
+        },
+        {
+          "title": "Comunidad",
+          "text": "Cuidar de quien no tiene voz une a los vecinos y enseña respeto a los más pequeños."
+        }
+      ]
+    },
+    "law": {
+      "title": "Desde 2023, la ley los protege",
+      "text": "La Ley 7/2023 de protección de los derechos y el bienestar de los animales reconoce la figura del gato comunitario y encarga a los ayuntamientos gestionar las colonias felinas con el método CER. Ya no se trata de una cuestión de buena voluntad: es una obligación legal.",
+      "link": "Conoce sus derechos"
+    },
+    "blog": {
+      "title": "Lo último de la asociación",
+      "lead": "Subvenciones, campañas, actuaciones en las colonias y recogidas de donativos.",
+      "all": "Ver todas las entradas",
+      "empty": "Pronto publicaremos aquí nuestras primeras noticias."
+    },
+    "join": {
+      "title": "Hay muchas formas de ayudar",
+      "lead": "Tanto si vives en Orihuela Costa y puedes dedicar unas horas como si prefieres colaborar desde donde estés, tu ayuda llega a los gatos.",
+      "time": {
+        "title": "Con tu tiempo",
+        "text": "Turnos de alimentación, capturas para esterilizar, traslados al veterinario o casa de acogida para recuperaciones.",
+        "cta": "Quiero ser voluntario"
+      },
+      "money": {
+        "title": "Con tu donación",
+        "text": "Cada aportación se convierte en esterilizaciones, pienso, antiparasitarios y material para las capturas.",
+        "cta": "Donar en Teaming"
+      }
+    },
+    "donateBand": {
+      "title": "1 € al mes cambia la vida de una colonia",
+      "text": "Con Teaming puedes colaborar con una microdonación mensual de 1 €. Sumada a la de otras personas, paga esterilizaciones, curas y el pienso de cada día.",
+      "cta": "Colaborar en Teaming"
+    }
+  },
+  "volunteer": {
+    "metaTitle": "Hazte voluntario",
+    "metaDescription": "Descubre qué significa ser voluntario de Cats Ocosta: dedicar tiempo a las colonias felinas de Orihuela Costa o colaborar con donaciones.",
+    "title": "Hazte voluntario",
+    "lead": "No hace falta experiencia ni ser veterinario. Hace falta constancia, respeto por los animales y por los vecinos, y ganas de trabajar en equipo.",
+    "meaningTitle": "Qué significa ser voluntario de Cats Ocosta",
+    "meaning": [
+      "Ser voluntario es comprometerse con unos gatos que no tienen a nadie más. Las colonias necesitan comida y agua todos los días del año, también en agosto y en Navidad, y eso solo es posible si somos muchas personas que se reparten el trabajo.",
+      "También es representar a la asociación ante los vecinos: explicar qué hacemos, por qué la colonia está ahí y cómo contribuye a que el barrio esté mejor. Cada voluntario ayuda a cambiar la mirada de la gente hacia los gatos comunitarios."
+    ],
+    "pathsTitle": "Elige cómo quieres colaborar",
+    "active": {
+      "title": "Voluntariado en las colonias",
+      "who": "Para vecinos de Orihuela Costa y alrededores que puedan dedicar algunas horas a la semana.",
+      "tasksTitle": "Tareas en las que puedes participar",
+      "tasks": [
+        "Turnos de alimentación y limpieza en un punto de colonia asignado",
+        "Apoyo en las capturas para esterilizar",
+        "Traslados de gatos al veterinario y de vuelta a su colonia",
+        "Casa de acogida temporal para postoperatorios y gatitos",
+        "Mesas informativas, mercadillos y recogidas de pienso",
+        "Difusión en redes y diseño de campañas"
+      ],
+      "cta": "Escribir por WhatsApp",
+      "message": "Hola, me gustaría ser voluntario/a de Cats Ocosta. ¿Me contáis cómo empezar?"
+    },
+    "donor": {
+      "title": "Colaborar con donaciones",
+      "who": "Para quien no puede dedicar tiempo, vive lejos o simplemente prefiere ayudar así.",
+      "tasksTitle": "Formas de colaborar",
+      "tasks": [
+        "Microdonación de 1 € al mes en Teaming",
+        "Donaciones de pienso seco, latas, mantas o transportines",
+        "Difundir nuestras campañas entre tus contactos",
+        "Si tienes un negocio en la zona, colocar una hucha o un punto de recogida"
+      ],
+      "cta": "Donar en Teaming",
+      "inKind": "Para donaciones en especie, escríbenos y te diremos qué necesitamos en cada momento."
+    },
+    "stepsTitle": "Cómo empezar como voluntario",
+    "steps": [
+      {
+        "title": "Escríbenos",
+        "text": "Por WhatsApp o por correo. Cuéntanos en qué zona vives y cuánto tiempo puedes dedicar."
+      },
+      {
+        "title": "Nos conocemos",
+        "text": "Quedamos para contarte cómo trabajamos, las normas de las colonias y resolver tus dudas."
+      },
+      {
+        "title": "Aprendes acompañado",
+        "text": "Durante las primeras semanas vas con un voluntario con experiencia en su ruta."
+      },
+      {
+        "title": "Te asignamos un turno",
+        "text": "Según tu disponibilidad y la zona que te quede más cerca."
+      }
+    ],
+    "commitTitle": "Lo que pedimos a cada voluntario",
+    "commit": [
+      {
+        "title": "Coordinación",
+        "text": "Actuamos siempre en nombre de la asociación y con el visto bueno de la coordinadora de cada zona."
+      },
+      {
+        "title": "Limpieza",
+        "text": "Recoger comederos y restos después de cada toma. Es lo que más valoran los vecinos."
+      },
+      {
+        "title": "Discreción",
+        "text": "No compartimos la ubicación exacta de las colonias: así las protegemos de abandonos y agresiones."
+      },
+      {
+        "title": "Respeto",
+        "text": "Hacia los gatos, hacia los vecinos y hacia la normativa municipal."
+      }
+    ],
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Tengo que vivir en Orihuela Costa?",
+        "a": "Para el voluntariado en las colonias sí conviene vivir cerca, porque los turnos son diarios. Si vives lejos puedes ayudar con donaciones, difusión o en campañas puntuales."
+      },
+      {
+        "q": "¿Cuánto tiempo tengo que dedicar?",
+        "a": "Un turno de alimentación suele llevar entre 30 y 60 minutos. Lo importante no es la cantidad de horas sino la constancia: si te comprometes a un día a la semana, los gatos cuentan con ello."
+      },
+      {
+        "q": "¿Puedo ayudar si soy menor de edad?",
+        "a": "Sí, acompañado de una persona adulta y con autorización de tus padres o tutores. Hay tareas, como las mesas informativas, que son ideales para empezar."
+      },
+      {
+        "q": "Ya doy de comer a unos gatos por mi cuenta. ¿Qué hago?",
+        "a": "Escríbenos. Te ayudamos a que esa colonia se esterilice y quede registrada, y a que la alimentación se haga cumpliendo la normativa. Así los gatos quedan protegidos y tú también."
+      },
+      {
+        "q": "¿Qué hago si me encuentro un gatito o un gato herido?",
+        "a": "Contacta con nosotros por WhatsApp con una foto y la zona aproximada. Si el animal corre peligro inmediato, acude a un veterinario de urgencias."
+      }
+    ],
+    "ctaTitle": "¿Te sumas?",
+    "ctaText": "Escríbenos y te contamos cómo empezar. Sin compromiso y sin formularios.",
+    "ctaEmail": "Escribir un correo"
+  },
+  "tnr": {
+    "metaTitle": "Método CER y derechos de los gatos comunitarios",
+    "metaDescription": "Qué es el método CER (captura, esterilización y retorno), por qué funciona, qué dice la Ley 7/2023 sobre los gatos comunitarios y cómo benefician a la población.",
+    "title": "El método CER",
+    "lead": "Captura, esterilización y retorno. Es el método ético y eficaz para gestionar las colonias de gatos que viven en la calle, y el que establece la ley estatal de bienestar animal.",
+    "toc": "En esta página",
+    "tocItems": {
+      "what": "Qué es",
+      "why": "Por qué funciona",
+      "myths": "Mitos",
+      "law": "La ley",
+      "rights": "Sus derechos",
+      "benefits": "Beneficios"
+    },
+    "what": {
+      "title": "Qué es el método CER",
+      "text": "CER son las siglas de captura, esterilización y retorno. En inglés se conoce como TNR (trap, neuter, return). Consiste en esterilizar a todos los gatos de una colonia y devolverlos a su territorio, donde un equipo de voluntarios los alimenta, los censa y vigila su salud. Así la colonia deja de crecer y, con los años, se reduce de forma natural.",
+      "steps": [
+        {
+          "title": "Captura",
+          "text": "Se usan jaulas trampa diseñadas para no hacer daño. Se colocan a las horas en las que los gatos acuden a comer y se vigilan en todo momento."
+        },
+        {
+          "title": "Esterilización",
+          "text": "En la clínica veterinaria se esteriliza al gato, se le desparasita y se hace una revisión general. Bajo anestesia se le recorta la punta de una oreja: es la marca internacional de gato esterilizado."
+        },
+        {
+          "title": "Retorno",
+          "text": "Tras un periodo de recuperación, el gato vuelve exactamente al mismo lugar donde fue capturado. Su colonia es su hogar."
+        },
+        {
+          "title": "Seguimiento",
+          "text": "Los voluntarios siguen alimentando la colonia, registran cada gato y detectan a los recién llegados para esterilizarlos también."
+        }
+      ]
+    },
+    "why": {
+      "title": "Por qué funciona",
+      "lead": "Durante décadas se intentó resolver el problema retirando a los gatos. Nunca funcionó. El CER sí, por estas razones:",
+      "items": [
+        {
+          "title": "Rompe el ciclo de reproducción",
+          "text": "Una gata puede tener varias camadas al año. Sin esterilización, una colonia pequeña se multiplica en muy poco tiempo."
+        },
+        {
+          "title": "Evita el efecto vacío",
+          "text": "Si se retira una colonia, el alimento y el refugio siguen ahí, y otros gatos sin esterilizar ocupan el territorio. Una colonia estable y estéril lo mantiene ocupado."
+        },
+        {
+          "title": "Reduce las molestias",
+          "text": "Sin celo desaparecen los maullidos, las peleas y el marcaje con orina, que son la causa principal de quejas vecinales."
+        },
+        {
+          "title": "Mejora la salud de los gatos",
+          "text": "Los gatos esterilizados pelean menos, se desplazan menos y reciben revisión veterinaria periódica."
+        },
+        {
+          "title": "Es ético y está respaldado por la ley",
+          "text": "No implica sacrificar animales sanos y es el método de referencia de la Ley 7/2023."
+        }
+      ]
+    },
+    "myths": {
+      "title": "Mitos y realidades",
+      "items": [
+        {
+          "myth": "Si les das de comer, vendrán más gatos.",
+          "fact": "Una alimentación ordenada, en horarios fijos, es justo lo que permite capturar y esterilizar a toda la colonia. Lo que hace crecer una colonia es la reproducción, no la comida."
+        },
+        {
+          "myth": "Lo mejor es llevárselos a otra parte.",
+          "fact": "Por el efecto vacío, llegarían otros gatos. Además, la ley prohíbe con carácter general retirar o desplazar gatos comunitarios de su colonia salvo en los supuestos y procedimientos que establece."
+        },
+        {
+          "myth": "Los gatos de la calle transmiten enfermedades.",
+          "fact": "Los gatos de una colonia gestionada están revisados y desparasitados. Con una higiene básica, el riesgo para las personas es muy bajo."
+        },
+        {
+          "myth": "Estarían mejor en una casa.",
+          "fact": "La mayoría de los gatos de colonia no están socializados con personas y sufrirían encerrados. Su territorio es su hogar. Los gatitos y los gatos sociables sí se dan en adopción."
+        }
+      ]
+    },
+    "law": {
+      "title": "La protección de los gatos comunitarios en la ley",
+      "lead": "La Ley 7/2023, de 28 de marzo, de protección de los derechos y el bienestar de los animales, en vigor desde el 29 de septiembre de 2023, dedica un capítulo específico a las colonias felinas.",
+      "items": [
+        {
+          "title": "Reconoce al gato comunitario",
+          "text": "Define al gato comunitario como el que vive en libertad pero vinculado a un territorio, y a la colonia felina como el grupo de gatos que, por su bajo grado de socialización, no puede ser manejado con facilidad por las personas pero vive en torno a ellas."
+        },
+        {
+          "title": "Establece el CER como método de gestión",
+          "text": "Define el CER como la captura, esterilización y retorno de los gatos comunitarios por medios no lesivos, y establece una gestión integral y no letal de las colonias."
+        },
+        {
+          "title": "Asigna responsabilidades a los ayuntamientos",
+          "text": "Los municipios deben contar con programas de gestión de colonias felinas que incluyan su censo, esterilización y control sanitario, contando con las entidades de protección animal."
+        },
+        {
+          "title": "Obliga a esterilizar a los gatos con hogar",
+          "text": "Para cortar el aporte de nuevos gatos a la calle, la ley establece la esterilización obligatoria de los gatos domésticos, con las excepciones que prevé."
+        },
+        {
+          "title": "Castiga el maltrato",
+          "text": "El abandono y el maltrato están prohibidos y sancionados. Además, el Código Penal, reformado en 2023, castiga el maltrato animal con penas que pueden incluir prisión."
+        }
+      ],
+      "regional": "En la Comunitat Valenciana se aplica también la Ley 2/2023, de 13 de marzo, de la Generalitat, de protección, bienestar y tenencia de animales de compañía, y cada ayuntamiento concreta en sus ordenanzas cómo se registran y gestionan las colonias.",
+      "disclaimer": "Esta información es divulgativa y no sustituye al asesoramiento jurídico. Puedes consultar el texto completo de la ley en el BOE.",
+      "boe": "Leer la Ley 7/2023 en el BOE"
+    },
+    "rights": {
+      "title": "Los derechos de los gatos comunitarios hoy",
+      "lead": "Con la normativa vigente, un gato de colonia tiene derecho a:",
+      "items": [
+        "Vivir en su territorio, sin ser retirado ni desplazado salvo en los casos que prevé la ley",
+        "Recibir un trato digno y no sufrir maltrato, envenenamiento ni abandono",
+        "Ser alimentado y cuidado por personas y entidades que gestionan su colonia",
+        "Recibir atención veterinaria y ser esterilizado dentro de un programa CER",
+        "No ser sacrificado, salvo eutanasia indicada por un veterinario para evitarle sufrimiento"
+      ],
+      "reportTitle": "Si presencias maltrato",
+      "reportText": "Llama al 112 o al 062 (Guardia Civil, SEPRONA) o avisa a la Policía Local. Si puedes hacerlo sin ponerte en riesgo, toma fotos o vídeo y anota la hora y el lugar. Después, escríbenos: te acompañamos en la denuncia."
+    },
+    "benefits": {
+      "title": "Cómo benefician los gatos comunitarios a la población",
+      "items": [
+        {
+          "title": "Control natural de roedores",
+          "text": "Mantienen alejadas a ratas y ratones de viviendas, jardines y zonas comunes sin necesidad de venenos que ponen en riesgo a mascotas y niños."
+        },
+        {
+          "title": "Convivencia más tranquila",
+          "text": "Una colonia esterilizada no maúlla por celo, no se pelea y no marca con orina."
+        },
+        {
+          "title": "Salud pública",
+          "text": "Las colonias gestionadas están bajo control veterinario y en puntos de alimentación limpios, algo que no ocurre con gatos sin control."
+        },
+        {
+          "title": "Ahorro para el municipio",
+          "text": "El CER resuelve el problema a largo plazo y, por eso, sale más barato que las recogidas continuas."
+        },
+        {
+          "title": "Educación en valores",
+          "text": "Las colonias son una oportunidad para enseñar a niños y jóvenes el respeto por los animales y por lo común."
+        },
+        {
+          "title": "Vecinos que se conocen",
+          "text": "Alrededor de cada colonia se crea una red de personas que se ayudan y cuidan de su entorno."
+        }
+      ]
+    },
+    "ctaTitle": "Ayúdanos a aplicar el CER en todo Orihuela Costa",
+    "ctaText": "Cada esterilización cuenta. Colabora con una donación o únete al equipo de voluntarios."
+  },
+  "blog": {
+    "metaTitle": "Blog",
+    "metaDescription": "Noticias de Cats Ocosta: subvenciones, actuaciones en las colonias, campañas y recogidas de donativos en Orihuela Costa.",
+    "title": "Blog",
+    "lead": "Lo que hacemos, contado por nosotros: subvenciones recibidas, actuaciones en las colonias, campañas y recogidas de donativos.",
+    "filter": "Filtrar por categoría",
+    "empty": "Todavía no hay entradas en esta categoría.",
+    "emptyAll": "Todavía no hemos publicado ninguna entrada. Vuelve pronto.",
+    "seeAll": "Ver todas las entradas",
+    "readMore": "Leer entrada",
+    "prev": "Entradas más recientes",
+    "next": "Entradas anteriores",
+    "page": "Página {page} de {total}"
+  },
+  "post": {
+    "back": "Volver al blog",
+    "published": "Publicado el {date}",
+    "helpTitle": "¿Quieres que podamos hacer más?",
+    "helpText": "Todo lo que cuentan estas entradas es posible gracias a las personas que colaboran con nosotros.",
+    "notFound": "Esta entrada no existe o ya no está publicada."
+  },
+  "contact": {
+    "metaTitle": "Contacto",
+    "metaDescription": "Contacta con Cats Ocosta por WhatsApp o por correo electrónico.",
+    "title": "Contacto",
+    "lead": "Escríbenos para ser voluntario, avisarnos de un gato que necesita ayuda, proponer una colaboración o resolver cualquier duda.",
+    "whatsappTitle": "WhatsApp",
+    "whatsappText": "La forma más rápida de hablar con nosotros. Puedes enviarnos fotos y la zona aproximada.",
+    "whatsappCta": "Abrir WhatsApp",
+    "whatsappMessage": "Hola, os escribo desde la web de Cats Ocosta.",
+    "emailTitle": "Correo electrónico",
+    "emailText": "Para propuestas, colaboraciones con empresas o administraciones y consultas más detalladas.",
+    "emailCta": "Escribir un correo",
+    "response": "Somos voluntarios: respondemos en cuanto podemos, normalmente en uno o dos días.",
+    "urgentTitle": "Si un animal está en peligro ahora mismo",
+    "urgentText": "Ante un caso de maltrato llama al 112 o al 062 (SEPRONA). Si el gato está herido, llévalo a una clínica veterinaria de urgencias y después escríbenos.",
+    "dataTitle": "Datos de la asociación",
+    "dataName": "Nombre",
+    "dataCif": "CIF",
+    "dataArea": "Ámbito de actuación",
+    "privacyTitle": "Tu privacidad",
+    "privacyText": "En esta web no hay formularios y no guardamos ningún dato tuyo. Si nos escribes, usaremos tus datos solo para responderte. Más información en la política de privacidad."
+  },
+  "legal": {
+    "updated": "Última actualización: septiembre de 2026",
+    "identityTitle": "Datos identificativos",
+    "identity": {
+      "name": "Titular",
+      "cif": "CIF",
+      "email": "Correo electrónico",
+      "whatsapp": "WhatsApp",
+      "registry": "Registro de asociaciones",
+      "area": "Ámbito de actuación"
+    },
+    "notice": {
+      "metaTitle": "Aviso legal",
+      "title": "Aviso legal",
+      "sections": [
+        {
+          "h": "Objeto",
+          "p": [
+            "En cumplimiento del artículo 10 de la Ley 34/2002, de servicios de la sociedad de la información y de comercio electrónico (LSSI-CE), se informa de los datos del titular de este sitio web, cuya finalidad es dar a conocer la actividad de la asociación, divulgar el método CER y facilitar el contacto y la colaboración."
+          ]
+        },
+        {
+          "h": "Condiciones de uso",
+          "p": [
+            "El acceso a esta web es libre y gratuito y no requiere registro. Quien la visita se compromete a hacer un uso adecuado de sus contenidos, conforme a la ley y a la buena fe."
+          ]
+        },
+        {
+          "h": "Propiedad intelectual",
+          "p": [
+            "Los textos, ilustraciones y logotipos de esta web pertenecen a la asociación o se usan con autorización. Puedes compartirlos con fines divulgativos y no comerciales citando la fuente."
+          ]
+        },
+        {
+          "h": "Enlaces externos",
+          "p": [
+            "La web enlaza a servicios de terceros, como Teaming para las donaciones, WhatsApp para el contacto o el Boletín Oficial del Estado. La asociación no se hace responsable de sus contenidos ni de sus políticas de privacidad, que te recomendamos consultar."
+          ]
+        },
+        {
+          "h": "Legislación aplicable",
+          "p": [
+            "Este aviso legal se rige por la legislación española."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "metaTitle": "Política de privacidad",
+      "title": "Política de privacidad",
+      "sections": [
+        {
+          "h": "Resumen",
+          "p": [
+            "Esta web no tiene formularios, no permite crear cuentas, no usa cookies de seguimiento ni herramientas de analítica y no guarda ningún dato personal de quien la visita. Esta política explica qué ocurre con tus datos solo si decides contactar con nosotros o colaborar."
+          ]
+        },
+        {
+          "h": "Responsable del tratamiento",
+          "p": [
+            "{name}, con CIF {cif}. Puedes contactar con nosotros en {email}."
+          ]
+        },
+        {
+          "h": "Navegación por la web",
+          "p": [
+            "Como cualquier servidor web, el proveedor de alojamiento puede registrar de forma técnica y temporal la dirección IP y los datos de la petición para garantizar la seguridad y el funcionamiento del servicio. La asociación no utiliza estos registros para identificarte ni para elaborar perfiles.",
+            "Las tipografías se sirven desde nuestro propio servidor, por lo que tu navegador no se conecta a servicios de terceros al cargar la web."
+          ]
+        },
+        {
+          "h": "Si nos escribes por correo o por WhatsApp",
+          "p": [
+            "Trataremos los datos que nos facilites (nombre, teléfono o correo y el contenido del mensaje) con la única finalidad de responderte y, si quieres ser voluntario, coordinar tu participación. La base legal es tu consentimiento al contactarnos y, en el caso del voluntariado, la gestión de la relación que se establece contigo.",
+            "Conservaremos los datos el tiempo necesario para atender tu consulta o mientras colabores con la asociación, y después los suprimiremos. No los cedemos a terceros salvo obligación legal.",
+            "WhatsApp es un servicio de WhatsApp Ireland Limited, que trata tus datos como responsable independiente según su propia política de privacidad, pudiendo implicar transferencias internacionales amparadas en los mecanismos previstos por el RGPD."
+          ]
+        },
+        {
+          "h": "Donaciones",
+          "p": [
+            "Las donaciones se realizan en la plataforma Teaming, que es responsable de los datos que le facilites allí según su propia política de privacidad. Esta web no recibe ni guarda datos de pago."
+          ]
+        },
+        {
+          "h": "Tus derechos",
+          "p": [
+            "Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad escribiendo a {email}. Si consideras que no hemos atendido correctamente tus derechos, puedes presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es)."
+          ]
+        },
+        {
+          "h": "Menores de edad",
+          "p": [
+            "Si eres menor de 14 años, pide a tu madre, padre o tutor que se ponga en contacto con nosotros en tu lugar."
+          ]
+        }
+      ]
+    },
+    "cookies": {
+      "metaTitle": "Política de cookies",
+      "title": "Política de cookies",
+      "sections": [
+        {
+          "h": "Esta web no usa cookies de seguimiento",
+          "p": [
+            "No utilizamos cookies de analítica, publicidad ni redes sociales, ni cargamos contenidos de terceros que las instalen. Tampoco guardamos una cookie para recordar tu idioma: el idioma se indica en la propia dirección de la página (/es o /en). Por eso no te mostramos ningún aviso de cookies."
+          ]
+        },
+        {
+          "h": "Cookie técnica del panel de administración",
+          "p": [
+            "Solo las personas del equipo que publican en el blog acceden a un panel privado. Al iniciar sesión se crea una cookie técnica (payload-token) necesaria para mantener la sesión. Está exenta de consentimiento según el artículo 22.2 de la LSSI-CE y nunca se instala a las personas que visitan la web."
+          ]
+        },
+        {
+          "h": "Servicios externos",
+          "p": [
+            "Si pulsas un enlace a Teaming o WhatsApp saldrás de esta web, y esos servicios pueden usar sus propias cookies según sus políticas."
+          ]
+        },
+        {
+          "h": "Cómo gestionar las cookies",
+          "p": [
+            "Puedes consultar y borrar las cookies desde la configuración de tu navegador en cualquier momento."
+          ]
+        }
+      ]
+    }
+  },
+  "notFound": {
+    "title": "Esta página se ha escapado",
+    "text": "No encontramos lo que buscas. Puede que la dirección haya cambiado o que el enlace no esté bien escrito.",
+    "home": "Volver al inicio"
+  }
+}
