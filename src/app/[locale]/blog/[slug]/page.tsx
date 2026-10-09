@@ -14,7 +14,7 @@ import { allPostParams, getPostBySlug, localesForSlug } from '@/lib/posts'
 type Props = { params: Promise<{ locale: Locale; slug: string }> }
 
 // Todas las entradas se generan en el build a partir de content/blog/<idioma>/
-export async function generateStaticParams({ params }: { params: { locale: Locale } }) {
+export async function generateStaticParams({ params }: { params: { locale: string } }) {
   return allPostParams()
     .filter((p) => p.locale === params.locale)
     .map(({ slug }) => ({ slug }))
