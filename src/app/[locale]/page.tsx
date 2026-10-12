@@ -91,7 +91,7 @@ export default async function HomePage() {
 						</div>
 						<div className="relative aspect-[4/5] overflow-hidden rounded-t-full rounded-b-2xl bg-peach shadow-arch">
 							<Image
-								src="/img/gatos-comiendo-recogedor.webp"
+								src="/img/gatos-comiendo-cerca.webp"
 								alt=""
 								fill
 								priority
