@@ -1,8 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Atkinson_Hyperlegible, Bricolage_Grotesque } from "next/font/google";
-import { notFound } from "next/navigation";
-import { hasLocale, NextIntlClientProvider } from "next-intl";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { NextIntlClientProvider } from "next-intl";
+import { getLocale, getTranslations } from "next-intl/server";
 import type { ReactNode } from "react";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
@@ -25,19 +24,17 @@ const body = Atkinson_Hyperlegible({
 	display: "swap",
 });
 
-type Props = { children: ReactNode; params: Promise<{ locale: string }> };
-
+// Sigue siendo necesario para generar las páginas de cada idioma en el build.
+// El idioma lo valida i18n/request.ts, que responde con 404 si no es válido.
 export function generateStaticParams() {
 	return routing.locales.map((locale) => ({ locale }));
 }
 
 export const viewport: Viewport = { themeColor: "#2C6E2A" };
 
-export async function generateMetadata({
-	params,
-}: Omit<Props, "children">): Promise<Metadata> {
-	const { locale } = await params;
-	const t = await getTranslations({ locale, namespace: "meta" });
+export async function generateMetadata(): Promise<Metadata> {
+	const locale = await getLocale();
+	const t = await getTranslations("meta");
 	return {
 		metadataBase: new URL(SITE.url),
 		title: { default: t("title"), template: `%s · ${SITE.name}` },
@@ -53,10 +50,12 @@ export async function generateMetadata({
 	};
 }
 
-export default async function LocaleLayout({ children, params }: Props) {
-	const { locale } = await params;
-	if (!hasLocale(routing.locales, locale)) notFound();
-	setRequestLocale(locale);
+export default async function LocaleLayout({
+	children,
+}: {
+	children: ReactNode;
+}) {
+	const locale = await getLocale();
 	const t = await getTranslations("a11y");
 
 	return (

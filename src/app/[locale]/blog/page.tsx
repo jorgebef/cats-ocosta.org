@@ -1,11 +1,10 @@
 import type { Metadata } from 'next'
-import { getTranslations, setRequestLocale } from 'next-intl/server'
+import { getLocale, getTranslations } from 'next-intl/server'
 import { Container, Muted, Section, textLink } from '@/components/layout'
 import { PageIntro } from '@/components/PageIntro'
 import { PostCard } from '@/components/PostCard'
 import { Button } from '@/components/ui/button'
 import { Link } from '@/i18n/navigation'
-import type { Locale } from '@/i18n/routing'
 import { isCategory, POST_CATEGORIES } from '@/lib/categories'
 import { alternatesFor } from '@/lib/metadata'
 import { getPosts } from '@/lib/posts'
@@ -13,13 +12,12 @@ import { getPosts } from '@/lib/posts'
 const PER_PAGE = 9
 
 type Props = {
-  params: Promise<{ locale: Locale }>
   searchParams: Promise<{ category?: string; page?: string }>
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = await params
-  const t = await getTranslations({ locale, namespace: 'blog' })
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await getLocale()
+  const t = await getTranslations('blog')
   return {
     title: t('metaTitle'),
     description: t('metaDescription'),
@@ -27,9 +25,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-export default async function BlogPage({ params, searchParams }: Props) {
-  const { locale } = await params
-  setRequestLocale(locale)
+export default async function BlogPage({ searchParams }: Props) {
+  const locale = await getLocale()
   const sp = await searchParams
   const category = isCategory(sp.category) ? sp.category : undefined
   const page = Math.max(1, Number.parseInt(sp.page ?? '1', 10) || 1)

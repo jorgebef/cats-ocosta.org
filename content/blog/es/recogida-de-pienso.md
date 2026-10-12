@@ -1,6 +1,6 @@
 ---
 title: "Recogida de pienso: así puedes colaborar"
-excerpt: Montamos puntos de recogida de pienso seco y latas en comercios de Orihuela Costa. Te contamos qué necesitamos.
+excerpt: Estamos preparando puntos de recogida de pienso y latas en comercios de Orihuela Costa. Esto es lo que necesitamos.
 category: fundraising
 date: 2026-09-15
 ---
@@ -15,6 +15,6 @@ Las colonias comen todos los días del año, y el pienso es nuestro mayor gasto 
 
 ## Dónde dejarlo
 
-Estamos preparando puntos de recogida en comercios de la zona. Si tienes un comercio y quieres ser uno de ellos, escríbenos.
+Muy pronto publicaremos los comercios que serán punto de recogida. ¿Tienes un negocio en la zona y quieres ser uno de ellos? Escríbenos.
 
-> Si prefieres colaborar desde casa, puedes hacerlo con 1 € al mes en nuestro Teaming.
+> ¿Prefieres ayudar desde casa? Colabora con 1 € al mes en nuestro Teaming.

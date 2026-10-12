@@ -5,12 +5,12 @@ category: news
 date: 2026-07-30
 ---
 
-Hasta ahora nos organizábamos casi todo por WhatsApp. Con esta web queremos contar mejor lo que hacemos y que sea más fácil sumarse.
+Hasta ahora nos organizábamos casi todo por WhatsApp. Con esta web queremos explicar mejor lo que hacemos y que sea más fácil sumarse.
 
 ## Qué encontrarás
 
-- Una explicación del **método CER** y de lo que dice la Ley 7/2023.
-- Cómo **hacerte voluntario**, según el tiempo que tengas.
+- Qué es el **método CER** y qué dice la Ley 7/2023.
+- Cómo **hacerte voluntario**, tengas el tiempo que tengas.
 - Este **blog**, con subvenciones, actuaciones, campañas y recogidas.
 
 La web no usa cookies ni analítica: solo queremos que la leas.

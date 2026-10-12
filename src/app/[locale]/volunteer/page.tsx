@@ -1,6 +1,6 @@
 import { MailIcon } from 'lucide-react'
 import type { Metadata } from 'next'
-import { getTranslations, setRequestLocale } from 'next-intl/server'
+import { getLocale, getTranslations } from 'next-intl/server'
 import { DefinitionRows, StepList, TickList } from '@/components/ContentBlocks'
 import { DonateButton } from '@/components/DonateButton'
 import { WhatsAppIcon } from '@/components/Icons'
@@ -10,16 +10,13 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card'
 import { SITE, whatsappLink } from '@/config/site'
-import type { Locale } from '@/i18n/routing'
 import { alternatesFor } from '@/lib/metadata'
 
 type Item = { title: string; text: string }
 type Faq = { q: string; a: string }
-type Props = { params: Promise<{ locale: Locale }> }
-
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = await params
-  const t = await getTranslations({ locale, namespace: 'volunteer' })
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await getLocale()
+  const t = await getTranslations('volunteer')
   return {
     title: t('metaTitle'),
     description: t('metaDescription'),
@@ -27,9 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-export default async function VolunteerPage({ params }: Props) {
-  const { locale } = await params
-  setRequestLocale(locale)
+export default async function VolunteerPage() {
   const t = await getTranslations('volunteer')
   const tA = await getTranslations('a11y')
 

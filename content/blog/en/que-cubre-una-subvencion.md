@@ -1,11 +1,11 @@
 ---
 title: What a cat colony grant pays for
-excerpt: Public funding is key to applying TNR. We explain what it is spent on and how we account for it.
+excerpt: Public funding is key to running TNR. Here's what it's spent on and how we account for it.
 category: grants
 date: 2026-08-18
 ---
 
-Grants for colony management usually go towards:
+Grants for colony management mainly go towards:
 
 - neutering,
 - veterinary treatment,
@@ -13,6 +13,6 @@ Grants for colony management usually go towards:
 
 ## How we account for it
 
-Every euro received is accounted for with invoices and an updated census of the colonies treated.
+We back up every euro with invoices and an updated census of the colonies we've cared for.
 
-We will publish every grant we receive on this blog, and what we used it for.
+We'll publish every grant we receive on this blog, along with what we spent it on.

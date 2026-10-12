@@ -91,7 +91,7 @@ Textos de aviso legal, privacidad y cookies incluidos en ambos idiomas. Conviene
 ## Antes de publicar
 
 - [ ] Poner el **correo real** en `src/config/site.ts` (ahora hay un marcador: `hola@catsocosta.org`).
-- [ ] Sustituir el **CIF** provisional `G99999999` si no es el definitivo y añadir el **nº de registro** de la asociación.
+- [x] Sustituir el **CIF** provisional `G16490344` si no es el definitivo y añadir el **nº de registro** de la asociación.
 - [ ] Revisar los textos legales y el contenido sobre la Ley 7/2023 y la Ley 2/2023 de la Comunitat Valenciana.
 - [ ] Sustituir o borrar las entradas de ejemplo de `content/blog/`.
 - [ ] Definir `NEXT_PUBLIC_SITE_URL` con el dominio final.

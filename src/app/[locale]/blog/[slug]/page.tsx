@@ -1,17 +1,16 @@
 import { ArrowLeftIcon } from 'lucide-react'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { getFormatter, getTranslations, setRequestLocale } from 'next-intl/server'
+import { getFormatter, getLocale, getTranslations } from 'next-intl/server'
 import { DonateBand } from '@/components/DonateBand'
 import { Container, Lead } from '@/components/layout'
 import { CategoryBadge } from '@/components/PostCard'
 import { Button } from '@/components/ui/button'
 import { Link } from '@/i18n/navigation'
-import type { Locale } from '@/i18n/routing'
 import { alternatesFor } from '@/lib/metadata'
 import { allPostParams, getPostBySlug, localesForSlug } from '@/lib/posts'
 
-type Props = { params: Promise<{ locale: Locale; slug: string }> }
+type Props = { params: Promise<{ slug: string }> }
 
 // Todas las entradas se generan en el build a partir de content/blog/<idioma>/
 export async function generateStaticParams({ params }: { params: { locale: string } }) {
@@ -23,7 +22,8 @@ export async function generateStaticParams({ params }: { params: { locale: strin
 export const dynamicParams = false
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale, slug } = await params
+  const { slug } = await params
+  const locale = await getLocale()
   const post = await getPostBySlug(slug, locale)
   if (!post) return {}
   return {
@@ -41,8 +41,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function PostPage({ params }: Props) {
-  const { locale, slug } = await params
-  setRequestLocale(locale)
+  const { slug } = await params
+  const locale = await getLocale()
   const post = await getPostBySlug(slug, locale)
   if (!post) notFound()
 

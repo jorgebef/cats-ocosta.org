@@ -1,12 +1,12 @@
 import { ShieldCheckIcon } from "lucide-react";
 import type { Metadata } from "next";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import Image from "next/image";
+import { getLocale, getTranslations } from "next-intl/server";
 import { EarTip } from "@/components/Cats";
 import { BenefitGrid, LawSeal, StepList } from "@/components/ContentBlocks";
-import { Butterflies, Logo } from "@/components/Decor";
+import { Logo } from "@/components/Decor";
 import { DonateBand } from "@/components/DonateBand";
 import { DonateButton } from "@/components/DonateButton";
-import { HeroScene } from "@/components/HeroScene";
 import {
 	Container,
 	FinePrint,
@@ -26,23 +26,21 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "@/i18n/navigation";
-import type { Locale } from "@/i18n/routing";
 import { alternatesFor } from "@/lib/metadata";
 import { getPosts } from "@/lib/posts";
 import { cn } from "@/lib/utils";
 
 type Item = { title: string; text: string };
-type Props = { params: Promise<{ locale: Locale }> };
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-	const { locale } = await params;
+export async function generateMetadata(): Promise<Metadata> {
+	const locale = await getLocale();
 	return { alternates: alternatesFor(locale, "/") };
 }
 
-export default async function HomePage({ params }: Props) {
-	const { locale } = await params;
-	setRequestLocale(locale);
+export default async function HomePage() {
+	const locale = await getLocale();
 	const t = await getTranslations("home");
+	const tCommon = await getTranslations("common");
 	const { docs: posts } = await getPosts({ locale, limit: 3 });
 
 	const work = t.raw("work.items") as Item[];
@@ -58,8 +56,6 @@ export default async function HomePage({ params }: Props) {
 					aria-hidden="true"
 					className="absolute -right-[30%] bottom-16 -z-10 aspect-square w-[110vw] animate-blob rounded-[58%_42%_48%_52%/46%_55%_45%_54%] bg-[linear-gradient(145deg,var(--color-ember-soft),color-mix(in_srgb,var(--color-leaf-soft)_70%,transparent))] lg:top-[8%] lg:-right-24 lg:bottom-auto lg:w-[min(44rem,70vw)]"
 				/>
-				<Butterflies placement="hero" className="z-20" />
-
 				<Container className="grid items-center gap-12 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] lg:gap-[clamp(3rem,6vw,6rem)]">
 					<Stack className="gap-6">
 						<Badge
@@ -93,8 +89,14 @@ export default async function HomePage({ params }: Props) {
 						<div className="absolute -top-6 -left-5 z-10 aspect-square w-[clamp(6.5rem,12vw,8.5rem)] animate-badge-in rounded-full bg-white p-1.5 shadow-soft">
 							<Logo priority className="size-full" />
 						</div>
-						<div className="aspect-[4/5] overflow-hidden rounded-t-full rounded-b-2xl bg-peach shadow-arch">
-							<HeroScene label={t("hero.sceneLabel")} />
+						<div className="relative aspect-[4/5] overflow-hidden rounded-t-full rounded-b-2xl bg-peach shadow-arch">
+							<Image
+								src="/img/gatos-comiendo-recogedor.webp"
+								alt=""
+								fill
+								priority
+								className="object-cover"
+							/>
 						</div>
 						<Card className="relative mt-[-3.5rem] ml-auto max-w-[19rem] animate-note-in flex-row items-start gap-3.5 text-base rounded-2xl border-2 border-ember bg-cream px-4.5 py-4 shadow-soft ring-0 lg:mr-[-2rem] lg:mt-[-4rem] lg:max-w-[21rem]">
 							<EarTip className="w-7 shrink-0 text-ember" />
@@ -176,7 +178,7 @@ export default async function HomePage({ params }: Props) {
 			{/* LA LEY */}
 			<Section tone="sand" aria-labelledby="law-title">
 				<Container className="grid items-center gap-x-[clamp(2rem,6vw,5rem)] gap-y-8 md:grid-cols-[auto_1fr]">
-					<LawSeal small={locale === "es" ? "Ley" : "Law"} big="7/2023" />
+					<LawSeal small={tCommon("law")} big="7/2023" />
 					<Stack className="gap-4.5">
 						<H2 id="law-title">{t("law.title")}</H2>
 						<p className="max-w-[62ch] text-pretty">{t("law.text")}</p>

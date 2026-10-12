@@ -1,11 +1,11 @@
 ---
 title: "Cat food drive: how you can help"
-excerpt: We are setting up drop-off points for dry food and tins in shops across Orihuela Costa. Here is what we need.
+excerpt: We're setting up drop-off points for cat food and tins in shops across Orihuela Costa. Here's what we need.
 category: fundraising
 date: 2026-09-15
 ---
 
-Colonies eat every day of the year, and food is our biggest expense after neutering.
+Colonies eat every day of the year, and food is our biggest cost after neutering.
 
 ## What we need
 
@@ -15,6 +15,6 @@ Colonies eat every day of the year, and food is our biggest expense after neuter
 
 ## Where to drop it off
 
-We are setting up drop-off points in local shops. If you run a shop and would like to be one of them, get in touch.
+We'll soon announce which shops are drop-off points. Do you run a local business and want to be one of them? Get in touch.
 
-> If you would rather help from home, you can give €1 a month through our Teaming page.
+> Prefer to help from home? Give €1 a month through our Teaming page.

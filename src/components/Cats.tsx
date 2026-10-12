@@ -40,3 +40,18 @@ export function EarTip({ className }: { className?: string }) {
     </svg>
   )
 }
+
+/** Huella de gato (almohadilla y cuatro dedos), usada como viñeta. */
+export function PawPrint({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" className={className} aria-hidden="true" focusable="false">
+      <g fill="currentColor">
+        <path d="M12 12.2c-2.9 0-6.2 3.1-6.2 5.9 0 1.7 1.3 2.6 2.8 2.6 1.3 0 2.2-.6 3.4-.6s2.1.6 3.4.6c1.5 0 2.8-.9 2.8-2.6 0-2.8-3.3-5.9-6.2-5.9z" />
+        <ellipse cx="4.6" cy="10.4" rx="2" ry="2.5" transform="rotate(-20 4.6 10.4)" />
+        <ellipse cx="9" cy="5.6" rx="2.1" ry="2.7" transform="rotate(-8 9 5.6)" />
+        <ellipse cx="15" cy="5.6" rx="2.1" ry="2.7" transform="rotate(8 15 5.6)" />
+        <ellipse cx="19.4" cy="10.4" rx="2" ry="2.5" transform="rotate(20 19.4 10.4)" />
+      </g>
+    </svg>
+  )
+}
