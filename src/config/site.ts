@@ -4,7 +4,7 @@
  */
 export const SITE = {
 	name: "Cats Ocosta",
-	legalName: "Asociación Colonias Felinas Orihuela Costa (Cats Ocosta)",
+	legalName: "Asociación Colonias Felinas Orihuela Costa (ASCFOC)",
 	cif: "G16490344",
 	area: "Orihuela Costa (Orihuela, Alicante)",
 	// TODO: sustituir por el correo real de la asociación

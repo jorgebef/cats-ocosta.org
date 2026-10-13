@@ -41,7 +41,7 @@ export default async function ContactPage() {
 	const tF = await getTranslations("footer");
 
 	const cardClass = "gap-3.5 rounded-4xl py-[clamp(1.75rem,4vw,2.5rem)] ring-0";
-	const pad = "px-[clamp(1.75rem,4vw,2.5rem)]";
+	const pad = "px-[clamp(1.55rem,3.5vw,1.95rem)]";
 
 	return (
 		<>
@@ -66,7 +66,7 @@ export default async function ContactPage() {
 								{t("whatsappText")}
 							</CardContent>
 							<CardFooter
-								className={cn("border-0 bg-transparent py-0 pt-2", pad)}
+								className={cn("border-0 bg-transparent pt-2 pb-4", pad)}
 							>
 								<Button asChild>
 									<a
@@ -95,7 +95,7 @@ export default async function ContactPage() {
 								{t("emailText")}
 							</CardContent>
 							<CardFooter
-								className={cn("border-0 bg-transparent py-0 pt-2", pad)}
+								className={cn("border-0 bg-transparent pt-2 pb-4", pad)}
 							>
 								<Button asChild variant="outline">
 									<a href={`mailto:${SITE.email}`}>{t("emailCta")}</a>
