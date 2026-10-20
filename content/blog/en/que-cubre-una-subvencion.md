@@ -3,6 +3,8 @@ title: What a cat colony grant pays for
 excerpt: Public funding is key to running TNR. Here's what it's spent on and how we account for it.
 category: grants
 date: 2026-08-18
+cover: /img/gato-capturado-veterinario.jpeg
+coverAlt: A vet checks a cat inside its trap
 ---
 
 Grants for colony management mainly go towards:

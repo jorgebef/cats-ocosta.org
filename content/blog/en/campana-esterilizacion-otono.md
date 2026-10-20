@@ -3,6 +3,8 @@ title: Our autumn neutering campaign begins
 excerpt: We want to neuter every colony cat that isn't neutered yet before the breeding season starts in late winter.
 category: campaigns
 date: 2026-09-24
+cover: /img/hembra-esterilizada-2025.jpeg
+coverAlt: Black female cat inside a trap after being neutered
 ---
 
 Every autumn we review the colony census and find the cats that aren't neutered yet, especially newcomers.

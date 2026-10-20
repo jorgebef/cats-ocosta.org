@@ -7,6 +7,7 @@ import { BenefitGrid, LawSeal, StepList } from "@/components/ContentBlocks";
 import { Logo } from "@/components/Decor";
 import { DonateBand } from "@/components/DonateBand";
 import { DonateButton } from "@/components/DonateButton";
+import { IMG, Photo } from "@/components/Media";
 import {
 	Container,
 	FinePrint,
@@ -41,6 +42,7 @@ export default async function HomePage() {
 	const locale = await getLocale();
 	const t = await getTranslations("home");
 	const tCommon = await getTranslations("common");
+	const tI = await getTranslations("images");
 	const { docs: posts } = await getPosts({ locale, limit: 3 });
 
 	const work = t.raw("work.items") as Item[];
@@ -131,6 +133,11 @@ export default async function HomePage() {
 						<SplitAside>
 							<H2 id="work-title">{t("work.title")}</H2>
 							<Lead>{t("work.lead")}</Lead>
+							<Photo
+								src={IMG.feedingCleanup}
+								alt={tI("feedingCleanup")}
+								className="mt-4 w-full max-w-md"
+							/>
 						</SplitAside>
 						<ul className="grid">
 							{work.map((item) => (

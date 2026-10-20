@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { getLocale, getTranslations } from 'next-intl/server'
 import { Container, Muted, Section, textLink } from '@/components/layout'
+import { IMG } from '@/components/Media'
 import { PageIntro } from '@/components/PageIntro'
 import { PostCard } from '@/components/PostCard'
 import { Button } from '@/components/ui/button'
@@ -33,6 +34,7 @@ export default async function BlogPage({ searchParams }: Props) {
 
   const t = await getTranslations('blog')
   const tCat = await getTranslations('categories')
+  const tI = await getTranslations('images')
   const { docs, totalPages } = await getPosts({ locale, category, page, limit: PER_PAGE })
 
   const pageHref = (p: number) => ({
@@ -45,7 +47,7 @@ export default async function BlogPage({ searchParams }: Props) {
 
   return (
     <>
-      <PageIntro title={t('title')} lead={t('lead')} />
+      <PageIntro title={t('title')} lead={t('lead')} image={{ src: IMG.colonyCats, alt: tI('colonyCats') }} />
 
       <Section size="tight">
         <Container>

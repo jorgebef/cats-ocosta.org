@@ -1,5 +1,6 @@
 import { ArrowLeftIcon } from 'lucide-react'
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import { getFormatter, getLocale, getTranslations } from 'next-intl/server'
 import { DonateBand } from '@/components/DonateBand'
@@ -75,14 +76,15 @@ export default async function PostPage({ params }: Props) {
 
         {post.cover && (
           <Container className="mb-12">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={post.cover.src} alt={post.cover.alt} className="max-h-[34rem] w-full rounded-4xl object-cover" />
+            <div className="relative aspect-[16/9] max-h-[34rem] w-full overflow-hidden rounded-4xl bg-peach shadow-soft">
+              <Image src={post.cover.src} alt={post.cover.alt} fill priority sizes="(min-width: 1184px) 70rem, 100vw" className="object-cover" />
+            </div>
           </Container>
         )}
 
         <Container narrow>
           <div
-            className="prose prose-lg max-w-none pb-[clamp(4rem,3rem+5vw,7.5rem)] prose-headings:font-heading prose-headings:text-forest prose-a:text-forest prose-a:decoration-2 prose-a:underline-offset-4 prose-strong:text-ink prose-blockquote:rounded-r-2xl prose-blockquote:border-l-ember prose-blockquote:bg-peach prose-blockquote:py-2 prose-blockquote:font-heading prose-blockquote:font-medium prose-blockquote:not-italic prose-blockquote:text-forest prose-li:marker:text-ember prose-img:rounded-2xl"
+            className="prose prose-lg max-w-none pb-[clamp(4rem,3rem+5vw,7.5rem)] prose-headings:font-heading prose-headings:text-forest prose-a:text-forest prose-a:decoration-2 prose-a:underline-offset-4 prose-strong:text-ink prose-blockquote:rounded-r-2xl prose-blockquote:border-l-ember prose-blockquote:bg-peach prose-blockquote:py-2 prose-blockquote:font-heading prose-blockquote:font-medium prose-blockquote:not-italic prose-blockquote:text-forest prose-li:marker:text-ember prose-img:rounded-2xl prose-img:shadow-soft prose-video:w-full prose-video:rounded-2xl prose-video:shadow-soft prose-figcaption:text-center"
             dangerouslySetInnerHTML={{ __html: post.html }}
           />
         </Container>

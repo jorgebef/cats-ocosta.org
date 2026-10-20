@@ -3,6 +3,8 @@ title: Qué cubre una subvención para colonias felinas
 excerpt: Las ayudas públicas son clave para aplicar el método CER. Te contamos en qué se invierten y cómo rendimos cuentas.
 category: grants
 date: 2026-08-18
+cover: /img/gato-capturado-veterinario.jpeg
+coverAlt: Una veterinaria revisa a un gato dentro de su jaula
 ---
 
 Las subvenciones para gestionar colonias se destinan sobre todo a:

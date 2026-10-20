@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { getFormatter, getTranslations } from "next-intl/server";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -11,9 +12,9 @@ import { Link } from "@/i18n/navigation";
 import type { PostCategory } from "@/lib/categories";
 import type { Post } from "@/lib/posts";
 import { cn } from "@/lib/utils";
-import { LoafCat } from "./Cats";
+import { IMG } from "./Media";
 
-/** Colores de cada categoría: fondo de la ilustración y de la etiqueta. */
+/** Colores de cada categoría: fondo de la portada mientras carga y de la etiqueta. */
 export const CATEGORY_STYLES: Record<
 	PostCategory,
 	{ media: string; badge: string }
@@ -75,30 +76,18 @@ export async function PostCard({
 		<Card className="group relative gap-0 rounded-3xl border-0 bg-white/80 py-0 shadow-soft ring-0 transition-transform hover:-translate-y-1 has-[a:focus-visible]:outline-3 has-[a:focus-visible]:outline-offset-4 has-[a:focus-visible]:outline-ember">
 			<div
 				className={cn(
-					"m-3 mb-0 grid aspect-[4/3] items-end justify-items-center overflow-hidden rounded-t-[240px] rounded-b-2xl",
+					"relative m-3 mb-0 aspect-[4/3] overflow-hidden rounded-t-[240px] rounded-b-2xl",
 					CATEGORY_STYLES[post.category].media,
 				)}
 			>
-				{post.cover ? (
-					// eslint-disable-next-line @next/next/no-img-element
-					<img
-						src={post.cover.src}
-						alt={post.cover.alt}
-						loading="lazy"
-						className="size-full object-cover"
-					/>
-				) : (
-					<svg
-						viewBox="-80 -90 160 100"
-						className="-mb-0.5 w-[55%]"
-						aria-hidden="true"
-						focusable="false"
-					>
-						<g fill="currentColor" stroke="currentColor">
-							<LoafCat />
-						</g>
-					</svg>
-				)}
+				{/* Sin portada propia, se usa una foto genérica de la colonia */}
+				<Image
+					src={post.cover?.src ?? IMG.colonyCats}
+					alt={post.cover?.alt ?? ""}
+					fill
+					sizes="(min-width: 1024px) 24rem, (min-width: 640px) 50vw, 100vw"
+					className="object-cover transition-transform duration-500 group-hover:scale-105"
+				/>
 			</div>
 			<CardHeader className="gap-3 px-6 pt-5">
 				<div className="flex flex-wrap items-center gap-x-3.5 gap-y-2 text-[0.9rem] text-muted-foreground">

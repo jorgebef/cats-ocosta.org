@@ -17,18 +17,6 @@ export function SittingCat({ tipped = false }: Props) {
   )
 }
 
-/** Gato tumbado "en modo pan" de perfil. Origen: centro de la base. */
-export function LoafCat() {
-  return (
-    <g>
-      <path d="M-40 0 C-44 -30 -20 -44 10 -42 C34 -40 42 -22 40 0 Z" />
-      <ellipse cx="34" cy="-44" rx="17" ry="15" />
-      <path d="M24 -54 L26 -72 L36 -58 Z" />
-      <path d="M38 -58 L46 -71 L48 -51 Z" />
-      <path d="M-38 -3 C-30 6 8 6 20 1" fill="none" strokeWidth="7" strokeLinecap="round" />
-    </g>
-  )
-}
 
 
 /** Pequeño icono de oreja con la punta recortada, usado como viñeta. */

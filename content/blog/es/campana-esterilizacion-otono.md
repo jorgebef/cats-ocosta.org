@@ -3,6 +3,8 @@ title: Arranca la campaña de esterilización de otoño
 excerpt: Queremos esterilizar a todos los gatos de las colonias que aún no lo están antes de la época de celo, a finales del invierno.
 category: campaigns
 date: 2026-09-24
+cover: /img/hembra-esterilizada-2025.jpeg
+coverAlt: Gata negra recién esterilizada dentro de una jaula trampa
 ---
 
 Cada otoño revisamos el censo de las colonias y localizamos a los gatos que aún no están esterilizados, sobre todo a los recién llegados.

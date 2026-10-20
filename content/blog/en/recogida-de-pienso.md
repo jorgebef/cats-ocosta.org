@@ -3,6 +3,8 @@ title: "Cat food drive: how you can help"
 excerpt: We're setting up drop-off points for cat food and tins in shops across Orihuela Costa. Here's what we need.
 category: fundraising
 date: 2026-09-15
+cover: /img/recaudacion-CER.jpeg
+coverAlt: Two volunteers at a fundraising stand in a pet shop
 ---
 
 Colonies eat every day of the year, and food is our biggest cost after neutering.

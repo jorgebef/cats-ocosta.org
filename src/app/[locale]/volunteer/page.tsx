@@ -5,6 +5,7 @@ import { DefinitionRows, StepList, TickList } from '@/components/ContentBlocks'
 import { DonateButton } from '@/components/DonateButton'
 import { WhatsAppIcon } from '@/components/Icons'
 import { Container, FinePrint, H2, H3, Lead, Prose, Section, SectionHeader, Split } from '@/components/layout'
+import { IMG, Photo } from '@/components/Media'
 import { PageIntro } from '@/components/PageIntro'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
 import { Button } from '@/components/ui/button'
@@ -27,6 +28,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function VolunteerPage() {
   const t = await getTranslations('volunteer')
   const tA = await getTranslations('a11y')
+  const tI = await getTranslations('images')
 
   const meaning = t.raw('meaning') as string[]
   const activeTasks = t.raw('active.tasks') as string[]
@@ -47,17 +49,20 @@ export default async function VolunteerPage() {
 
   return (
     <>
-      <PageIntro title={t('title')} lead={t('lead')} />
+      <PageIntro title={t('title')} lead={t('lead')} image={{ src: IMG.fundraisingStand, alt: tI('fundraisingStand') }} />
 
       <Section aria-labelledby="meaning-title">
         <Container>
           <Split>
             <H2 id="meaning-title">{t('meaningTitle')}</H2>
-            <Prose>
-              {meaning.map((p) => (
-                <p key={p}>{p}</p>
-              ))}
-            </Prose>
+            <div className="grid gap-8">
+              <Prose>
+                {meaning.map((p) => (
+                  <p key={p}>{p}</p>
+                ))}
+              </Prose>
+              <Photo src={IMG.twoCatsEating} alt={tI('twoCatsEating')} className="max-w-xl" />
+            </div>
           </Split>
         </Container>
       </Section>
@@ -77,7 +82,7 @@ export default async function VolunteerPage() {
                 <h4 className="font-bold">{t('active.tasksTitle')}</h4>
                 <TickList items={activeTasks} />
               </CardContent>
-              <CardFooter className="mt-auto border-0 bg-transparent px-[clamp(1.75rem,4vw,2.75rem)] py-0">{whatsappButton}</CardFooter>
+              <CardFooter className="mt-auto mb-4 border-0 bg-transparent px-[clamp(1.75rem,4vw,2.75rem)] py-0">{whatsappButton}</CardFooter>
             </Card>
 
             <Card className="gap-5 rounded-4xl bg-ember-soft py-[clamp(1.75rem,4vw,2.75rem)] ring-0">
@@ -89,7 +94,7 @@ export default async function VolunteerPage() {
                 <h4 className="font-bold">{t('donor.tasksTitle')}</h4>
                 <TickList items={donorTasks} />
               </CardContent>
-              <CardFooter className="mt-auto grid justify-items-start gap-3 border-0 bg-transparent px-[clamp(1.75rem,4vw,2.75rem)] py-0">
+              <CardFooter className="mt-auto mb-4 grid justify-items-start gap-3 border-0 bg-transparent px-[clamp(1.75rem,4vw,2.75rem)] py-0">
                 <DonateButton label={t('donor.cta')} />
                 <FinePrint>{t('donor.inKind')}</FinePrint>
               </CardFooter>

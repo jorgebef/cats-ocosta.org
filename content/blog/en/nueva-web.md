@@ -3,6 +3,8 @@ title: Our new website is live
 excerpt: It's now easier to learn about TNR, become a volunteer or support the cat colonies of Orihuela Costa.
 category: news
 date: 2026-07-30
+cover: /img/2-gatos-pared.jpeg
+coverAlt: Two cats on a stone wall under a pine tree
 ---
 
 Until now we organised almost everything over WhatsApp. With this website we want to explain what we do more clearly and make it easier to get involved.

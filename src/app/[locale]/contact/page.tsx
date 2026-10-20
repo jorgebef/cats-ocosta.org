@@ -11,6 +11,7 @@ import {
 	Split,
 	textLink,
 } from "@/components/layout";
+import { IMG, Photo } from "@/components/Media";
 import { PageIntro } from "@/components/PageIntro";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
@@ -39,13 +40,18 @@ export default async function ContactPage() {
 	const t = await getTranslations("contact");
 	const tA = await getTranslations("a11y");
 	const tF = await getTranslations("footer");
+	const tI = await getTranslations("images");
 
 	const cardClass = "gap-3.5 rounded-4xl py-[clamp(1.75rem,4vw,2.5rem)] ring-0";
 	const pad = "px-[clamp(1.55rem,3.5vw,1.95rem)]";
 
 	return (
 		<>
-			<PageIntro title={t("title")} lead={t("lead")} />
+			<PageIntro
+				title={t("title")}
+				lead={t("lead")}
+				image={{ src: IMG.wallCats, alt: tI("wallCats") }}
+			/>
 
 			<Section size="tight">
 				<Container>
@@ -110,21 +116,24 @@ export default async function ContactPage() {
 			<Section size="tight">
 				<Container>
 					<Split>
-						<Alert
-							role="note"
-							className="h-fit gap-2.5 rounded-3xl border-2 border-ember bg-ember-soft p-6 text-base"
-							aria-labelledby="urgent-title"
-						>
-							<SirenIcon className="size-5! text-ember-deep" />
-							<AlertTitle id="urgent-title">
-								<H3 as="h2" className="text-ember-deep">
-									{t("urgentTitle")}
-								</H3>
-							</AlertTitle>
-							<AlertDescription className="text-base text-ink">
-								{t("urgentText")}
-							</AlertDescription>
-						</Alert>
+						<div className="grid content-start gap-6">
+							<Alert
+								role="note"
+								className="h-fit gap-2.5 rounded-3xl border-2 border-ember bg-ember-soft p-6 text-base"
+								aria-labelledby="urgent-title"
+							>
+								<SirenIcon className="size-5! text-ember-deep" />
+								<AlertTitle id="urgent-title">
+									<H3 as="h2" className="text-ember-deep">
+										{t("urgentTitle")}
+									</H3>
+								</AlertTitle>
+								<AlertDescription className="text-base text-ink">
+									{t("urgentText")}
+								</AlertDescription>
+							</Alert>
+							<Photo src={IMG.rescue} alt={tI("rescue")} ratio="aspect-[940/788]" />
+						</div>
 
 						<div>
 							<H3 as="h2">{t("dataTitle")}</H3>
