@@ -5,6 +5,9 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	poweredByHeader: false,
+	experimental: {
+		agentUpgrade: "security",
+	},
 	async headers() {
 		return [
 			{
